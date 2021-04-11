@@ -1,0 +1,14 @@
+[Unit]
+Description=Growlab
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+StartLimitInterval=0
+EnvironmentFile=/etc/default/growlab
+ExecStart=/home/pi/growlab/app/main.py
+
+[Install]
+WantedBy=multi-user.target

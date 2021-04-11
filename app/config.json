@@ -1,0 +1,22 @@
+{
+    "images": {
+        "output_directory": "./images/",
+        "encoding": "jpeg",
+        "width": 2592,
+        "height": 1944,
+        "image_quality": 70,
+        "preview_seconds": 1,
+        "vertical_flip": false,
+        "horizontal_flip": false,
+        "meter_mode": "matrix",
+        "interval_seconds": 600
+    },
+    "text": {
+        "colour": {
+            "red": 255,
+            "green": 255,
+            "blue": 255
+        },
+        "size": 48
+    }
+}
