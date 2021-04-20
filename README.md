@@ -1,22 +1,47 @@
 # growlab
 
-A global community challenge to create a Grow Lab with the Raspberry Pi
+A global contest to grow seeds and share your progress with the Raspberry Pi
+
+![My green beans](https://pbs.twimg.com/media/Ey1ugNwWgAIyUiJ?format=jpg&name=small)
+> My green beans are doing well
 
 ## How it works
 
-Build your own [Grow Lab](https://blog.alexellis.io/the-grow-lab-challenge/) and particpate in the challenge:
+Build your own [Grow Lab](https://blog.alexellis.io/the-grow-lab-challenge/) and particpate in the challenge
+
+Use the [#growlab hashtag](https://twitter.com/search?q=%23growlab&src=typed_query) and share as many pictures as you like.
+
+Watch a [sample video here](https://www.youtube.com/watch?v=Y5rQD2eePY4)
 
 ### Unlock each level
 
-Bronze - assemble your Grow Lab using the recommend parts, customise the design. Tweet a photo of your build.
+Bronze - assemble your `#growlab` using one of the recommend designs or customise it. Tweet a photo of your build.
 
-Silver - install the software and Tweet a photo from the camera in its position.
+Silver - install the software and capture your first photo of your seeds in the soil. Tweet it using the seeds2 software, or copy the file to your computer and Tweet it from there.
 
 Gold - Wait until at least one of your seeds has germinated, and Tweet a second photo.
 
-Platinum - use the software to create images over a week. Compile the images into a timelapse and upload it to YouTube. Tweet a link to the video.
+Platinum - use the [phototimer](https://github.com/alexellis/phototimer) or seeds2 software to capture images over a week. Compile the images into a timelapse and upload it to YouTube. We recommend one photo every 10 minutes. Tweet a link to the video.
 
-## Entries
+### Making your timelapse
+
+If you're using phototimer, then you can run the following:
+
+```bash
+echo $(echo $(find ./Desktop/image/ | sort -V|grep jpg)) | xargs cat | ffmpeg  -framerate 10 -f image2pipe -vcodec mjpeg -i - -vcodec libx264 out.mp4
+```
+
+iMovie is also relatively easy to use, by dragging the images into the timeline and changing the time between images to ~ 0.1s
+
+### Extra points and taking things further
+
+![Self-watering system](https://pbs.twimg.com/media/EzZ1vDsXMAgNQKF?format=jpg&name=medium)
+> A self-watering system
+
+* Overlay temperature and humidity data with an BME280 sensor
+* Add a self-watering system with a small pump and capacitive soil sensor
+
+## Community `#growlab`s
 
 Ordered as seen on Twitter.
 
