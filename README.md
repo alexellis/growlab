@@ -35,13 +35,13 @@ iMovie is also relatively easy to use, by dragging the images into the timeline 
 
 ### Extra points and taking things further
 
-![Self-watering system](https://pbs.twimg.com/media/EzZ1vDsXMAgNQKF?format=jpg&name=medium)
+![Self-watering system](https://pbs.twimg.com/media/EzZ1vDsXMAgNQKF?format=jpg&name=small)
 > A self-watering system
 
 * Overlay temperature and humidity data with an BME280 sensor
 * Add a self-watering system with a small pump and capacitive soil sensor
 
-## Community `#growlab`s
+## Community `#growlab`s 🥇🥈🥉
 
 Ordered as seen on Twitter.
 
