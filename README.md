@@ -40,6 +40,11 @@ iMovie is also relatively easy to use, by dragging the images into the timeline 
 
 * Overlay temperature and humidity data with an BME280 sensor
 * Add a self-watering system with a small pump and capacitive soil sensor
+* Try a garden RGB grow-light to give your seeds a little more help
+* Experiment with hydroponics
+* Install your lab in an outdoor greenhouse, shed or cold-frame
+* Use a light sensor / LDR or UV sensor measure available light
+* Try a suitable solar panel and battery capacity to run your experiment outdoors or in a room without a socket
 
 ## Community `#growlab`s 🥇🥈🥉
 
