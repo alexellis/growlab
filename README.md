@@ -1,15 +1,17 @@
 # growlab
 
-A global contest to grow seeds and share your progress with the Raspberry Pi
-
 ![My green beans](https://pbs.twimg.com/media/Ey1ugNwWgAIyUiJ?format=jpg&name=small)
 > My green beans are doing well
 
+A global contest to grow seeds and share your progress with the Raspberry Pi
+
 ## How it works
 
-Build your own [Grow Lab](https://blog.alexellis.io/the-grow-lab-challenge/) and particpate in the challenge
-
-Use the [#growlab hashtag](https://twitter.com/search?q=%23growlab&src=typed_query) and share as many pictures as you like.
+1) Read the launch blog post: [Join the Grow Lab Challenge](https://blog.alexellis.io/the-grow-lab-challenge/).
+2) Then build your own `#growlab` using one of the designs, or customise it. And start growing and recording a timelapse.
+3) Use the [#growlab hashtag](https://twitter.com/search?q=%23growlab&src=typed_query) and share as many pictures as you like.
+4) Send a Pull Request and link to each Tweet to unlock each level.
+5) At the conclusion of the growing period, we'll send some prizes from OpenFaaS Ltd and Pimoroni to entries at random for different tiers.
 
 Watch a [sample video here](https://www.youtube.com/watch?v=Y5rQD2eePY4)
 
