@@ -57,5 +57,5 @@ Ordered as seen on Twitter.
 | Alex Ellis  | [@alexellisuk](https://twitter.com/alexellisuk)  | [Bronze](https://twitter.com/alexellisuk/status/1380227185894690823)  |  [Silver](https://twitter.com/alexellisuk/status/1380227185894690823) | [Gold](https://twitter.com/alexellisuk/status1380417347861774337)  |   |
 | Richard Gee  | [@rgee0](https://twitter.com/rgee0)  | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384414687748673538)  |   |
 |  Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  |   |   |   |   |
-
+|  Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   |   |
 
