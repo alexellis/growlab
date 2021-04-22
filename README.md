@@ -60,7 +60,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | |
 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | |
 | Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | |
-
+| Jakob Waibel | [@jakobwaibel](https://twitter.com/jakobwaibel) | [JakWai01](https://github.com/JakWai01) ||
 ## Contest entries `#growlab` 🥇🥈🥉
 
 | Name  | Bronze   | Silver   | Gold   | Platinum |
