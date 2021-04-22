@@ -54,9 +54,11 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 
 > If you have a Grafana dashboard, or a HTTP server that you'd like to share, then apply for an inlets PRO trial and say that you're doing a growlab, and we'll send you an extended trial and host a free exit-tunnel server for you. That way you can share your dashboard or images on the Internet. [Apply here](https://inlets.dev/)
 
+Once your tunnel is up, youcan serve the directory directly from phototimer with `inlets-pro http fileserver --webroot /home/pi/image --allow-browsing --port 8080`.
+
 | Name                | Twitter         | GitHub        | Live preview URL |
 |---------------------|-----------------|---------------|------------------|
-| Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | |
+| Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Images captured by phototimer](https://alexellis-growlab.exit.o6s.io/) |
 | Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | |
 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | |
 | Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | |
