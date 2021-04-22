@@ -73,6 +73,7 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 | Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | |
 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | |
 | Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | |
+| Felix Pojtinger | [@pojntfx](https://twitter.com/pojntfx) | [pojntfx](https://github.com/pojntfx) |
 
 ## Contest entries `#growlab` 🥇🥈🥉
 
