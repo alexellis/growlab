@@ -5,6 +5,10 @@
 ![My green beans](https://pbs.twimg.com/media/Ey1ugNwWgAIyUiJ?format=jpg&name=small)
 > A capture from phototimer of my seed tray with a wide-angle camera positioned above
 
+## New Live stream - 27th April 16:30 BST
+
+Got started already, or just want to learn more? Tune into the live stream [Grow your own with Raspberry Pi - Alex Ellis & Richard Gee](https://www.youtube.com/watch?v=Ta_LBKpI5-0)
+
 ## How it works
 
 1) Read the launch blog post: [Join the Grow Lab Challenge](https://blog.alexellis.io/the-grow-lab-challenge/).
