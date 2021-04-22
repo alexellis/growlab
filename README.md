@@ -48,14 +48,28 @@ iMovie is also relatively easy to use, by dragging the images into the timeline 
 * Use a light sensor / LDR or UV sensor measure available light
 * Try a suitable solar panel and battery capacity to run your experiment outdoors or in a room without a socket
 
-## Community `#growlab`s 🥇🥈🥉
+## Growlab Technicians
 
-Ordered as seen on Twitter.
+Technicians work in laboratories, and you are no different, so if you've bought your kit, or have decided to join, then add your details below so that we can encourage each other and see how many people are participating. If you don't have a Twitter or GitHub handle just put N/a.
 
-| Name  |Twitter   | Bronze   | Silver   | Gold   | Platinum |
+> If you have a Grafana dashboard, or a HTTP server that you'd like to share, then apply for an inlets PRO trial and say that you're doing a growlab, and we'll send you an extended trial and host a free exit-tunnel server for you. That way you can share your dashboard or images on the Internet. [Apply here](https://inlets.dev/)
+
+| Name                | Twitter         | GitHub        | Live preview URL |
+|---------------------|-----------------|---------------|------------------|
+| Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | |
+| Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | |
+| Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | |
+| Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | |
+
+## Contest entries `#growlab` 🥇🥈🥉
+
+| Name  | Bronze   | Silver   | Gold   | Platinum |
 |---|---|---|---|---|---|
-| Alex Ellis  | [@alexellisuk](https://twitter.com/alexellisuk)  | [Bronze](https://twitter.com/alexellisuk/status/1380227185894690823)  |  [Silver](https://twitter.com/alexellisuk/status/1380227185894690823) | [Gold](https://twitter.com/alexellisuk/status1380417347861774337)  |   |
-| Richard Gee  | [@rgee0](https://twitter.com/rgee0)  | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384414687748673538)  |   |
-|  Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  |   |   |   |   |
-|  Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   |   |
+| Alex Ellis        | [Bronze](https://twitter.com/alexellisuk/status/1380227185894690823)  |  [Silver](https://twitter.com/alexellisuk/status/1380227185894690823) | [Gold](https://twitter.com/alexellisuk/status1380417347861774337)  |   |
+| Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384414687748673538)  |   |
+|  Simon Emms       |   |   |   |
+|  Florian Clanet   | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   | |
 
+## Community projects and add-ons
+
+* Richard Gee's seeds2 repo for tweeting and capturing images: [rgee0/seeds2](https://github.com/rgee0/seeds2)
