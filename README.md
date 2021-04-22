@@ -1,19 +1,24 @@
 # growlab
 
-![My green beans](https://pbs.twimg.com/media/Ey1ugNwWgAIyUiJ?format=jpg&name=small)
-> My green beans are doing well
+## A global contest to grow seeds and share your progress with the Raspberry Pi
 
-A global contest to grow seeds and share your progress with the Raspberry Pi
+![My green beans](https://pbs.twimg.com/media/Ey1ugNwWgAIyUiJ?format=jpg&name=small)
+> A capture from phototimer of my seed tray with a wide-angle camera positioned above
+
+## New Live stream - 27th April 16:30 BST
+
+Got started already, or just want to learn more? Tune into the live stream [Grow your own with Raspberry Pi - Alex Ellis & Richard Gee](https://www.youtube.com/watch?v=Ta_LBKpI5-0)
 
 ## How it works
 
 1) Read the launch blog post: [Join the Grow Lab Challenge](https://blog.alexellis.io/the-grow-lab-challenge/).
-2) Then build your own `#growlab` using one of the designs, or customise it. And start growing and recording a timelapse.
-3) Use the [#growlab hashtag](https://twitter.com/search?q=%23growlab&src=typed_query) and share as many pictures as you like.
-4) Send a Pull Request and link to each Tweet to unlock each level.
-5) At the conclusion of the growing period, we'll send some prizes from OpenFaaS Ltd and Pimoroni to entries at random for different tiers.
+2) Order your kit, or decide you're taking part by sending a PR and adding yourself to the "growlab Technicians" section below.
+3) Build your own `#growlab` using one of the designs, or customise it. And start growing and recording a timelapse.
+4) Use the [#growlab hashtag](https://twitter.com/search?q=%23growlab&src=typed_query) and share as many pictures as you like.
+5) Send a Pull Request and link to each Tweet to unlock each level.
+6) At the conclusion of the growing period, we'll send some prizes from OpenFaaS Ltd and Pimoroni to entries at random for different tiers.
 
-Watch a [sample video here](https://www.youtube.com/watch?v=Y5rQD2eePY4)
+Prizes to be provided by: [OpenFaaS Ltd](https://openfaas.com) and [Pimoroni](https://www.pimoroni.com). Want to sponsor or provide prizes? Send an email to [alex@openfaas.com](mailto:alex@openfaas.com)
 
 ### Unlock each level
 
@@ -34,6 +39,12 @@ echo $(echo $(find ./Desktop/image/ | sort -V|grep jpg)) | xargs cat | ffmpeg  -
 ```
 
 iMovie is also relatively easy to use, by dragging the images into the timeline and changing the time between images to ~ 0.1s
+
+Here's a sample from 9th-22nd April you can watch on YouTube:
+
+[![](https://img.youtube.com/vi/YiFUVAP0B18/hqdefault.jpg)](https://www.youtube.com/watch?v=YiFUVAP0B18)
+
+[Click here](https://www.youtube.com/watch?v=YiFUVAP0B18) to watch my video timelapse
 
 ### Extra points and taking things further
 
@@ -62,6 +73,7 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 | Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | |
 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | |
 | Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | [Flolight](https://github.com/Flolight) |
+| Felix Pojtinger | [@pojntfx](https://twitter.com/pojntfx) | [pojntfx](https://github.com/pojntfx) |
 
 ## Contest entries `#growlab` 🥇🥈🥉
 
