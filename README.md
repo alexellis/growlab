@@ -72,7 +72,7 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 | Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Images captured by phototimer](https://alexellis-growlab.exit.o6s.io/) |
 | Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | |
 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | |
-| Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | |
+| Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | [Flolight](https://github.com/Flolight) |
 | Felix Pojtinger | [@pojntfx](https://twitter.com/pojntfx) | [pojntfx](https://github.com/pojntfx) |
 
 ## Contest entries `#growlab` 🥇🥈🥉
