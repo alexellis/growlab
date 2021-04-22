@@ -1,6 +1,4 @@
-# growlab
-
-A global contest to grow seeds and share your progress with the Raspberry Pi
+# growlab - a global contest to grow seeds and share your progress with the Raspberry Pi
 
 ![My green beans](https://pbs.twimg.com/media/Ey1ugNwWgAIyUiJ?format=jpg&name=small)
 > A capture from phototimer of my seed tray with a wide-angle camera positioned above
