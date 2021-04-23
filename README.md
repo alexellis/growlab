@@ -83,7 +83,7 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 | Name  | Bronze   | Silver   | Gold   | Platinum |
 |-------|----------|----------|--------|----------|
 | Alex Ellis        | [Bronze](https://twitter.com/alexellisuk/status/1380227185894690823)  |  [Silver](https://twitter.com/alexellisuk/status/1380227185894690823) | [Gold](https://twitter.com/alexellisuk/status1380417347861774337)  | [Platinum](https://www.youtube.com/watch?v=YiFUVAP0B18)  |
-| Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384414687748673538)  |   |
+| Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384765411913355265)  |   |
 |  Simon Emms       |   |   |   |
 |  Florian Clanet   | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   | |
 |  Philippe Charrière       |   |   |   |
