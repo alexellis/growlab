@@ -63,10 +63,6 @@ Here's a sample from 9th-22nd April you can watch on YouTube:
 
 Technicians work in laboratories, and you are no different, so if you've bought your kit, or have decided to join, then add your details below so that we can encourage each other and see how many people are participating. If you don't have a Twitter or GitHub handle just put N/a.
 
-> If you have a Grafana dashboard, or a HTTP server that you'd like to share, then apply for an inlets PRO trial and say that you're doing a growlab, and we'll send you an extended trial and host a free exit-tunnel server for you. That way you can share your dashboard or images on the Internet. [Apply here](https://inlets.dev/)
-
-Once your tunnel is up, youcan serve the directory directly from phototimer with `inlets-pro http fileserver --webroot /home/pi/image --allow-browsing --port 8080`.
-
 | Name                | Twitter         | GitHub        | Live preview URL |
 |---------------------|-----------------|---------------|------------------|
 | Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Images captured by phototimer](https://alexellis-growlab.exit.o6s.io/) |
@@ -78,6 +74,23 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 | Sam Perrin | [@sam_perrin](https://twitter.com/sam_perrin) | [sam-perrin](https://github.com/sam-perrin) |
 | Philippe Charrière | [@k33g_org](https://twitter.com/k33g_org) | [k33g](https://github.com/k33g) |
 | John McCabe | [@mccabejohn](https://twitter.com/mccabejohn) | [johnmccabe](https://github.com/johnmccabe) ||
+
+### Live preview URLs
+
+A live preview URL keeps things interesting and lets the community get a view inside your lab.
+
+If you have a Grafana dashboard, or a HTTP server that you'd like to share, then apply for an inlets PRO trial and say that you're doing a growlab, and we'll send you an extended trial and host a free exit-tunnel server for you. That way you can share your dashboard or images on the Internet. [Apply here](https://inlets.dev/)
+
+Once your tunnel is up, youcan serve the directory directly from phototimer with: 
+
+```bash
+inlets-pro http fileserver --webroot /home/pi/image \
+  --allow-browsing --port 8080
+```
+
+If you don't want to host a HTTP server or to create your own dashboard then there are other options too
+
+You could also do a period "git commit" of your latest capture, and then use GitHub Pages to publish that image to a website, or just use an S3 bucket and the AWS CLI to sync the latest image.
 
 ## Contest entries `#growlab` 🥇🥈🥉
 
