@@ -92,5 +92,6 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 
 ## Community projects and add-ons
 
+* phototimer for capturing photos from the RPi camera for a timelapse: [alexellis/phototimer](https://github.com/alexellis/phototimer)
 * Richard Gee's seeds2 repo for tweeting and capturing images: [rgee0/seeds2](https://github.com/rgee0/seeds2)
 * Sam Perrin's seed-viewer for viewing the images captured with phototimer [sam-perrin/seed-viewer](https://github.com/sam-perrin/seed-viewer)
