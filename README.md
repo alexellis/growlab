@@ -70,8 +70,8 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 | Name                | Twitter         | GitHub        | Live preview URL |
 |---------------------|-----------------|---------------|------------------|
 | Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Images captured by phototimer](https://alexellis-growlab.exit.o6s.io/) |
-| Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | |
 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | [Images captured by phototimer](https://growlab.simonemms.com) |
+| Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | [Most recently captured image](https://growlab.technologee.co.uk/) |
 | Jakob Waibel | [@jakobwaibel](https://twitter.com/jakobwaibel) | [JakWai01](https://github.com/JakWai01) ||
 | Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | [Flolight](https://github.com/Flolight) |
 | Felix Pojtinger | [@pojntfx](https://twitter.com/pojntfx) | [pojntfx](https://github.com/pojntfx) |
