@@ -77,6 +77,7 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 | Felix Pojtinger | [@pojntfx](https://twitter.com/pojntfx) | [pojntfx](https://github.com/pojntfx) |
 | Sam Perrin | [@sam_perrin](https://twitter.com/sam_perrin) | [sam-perrin](https://github.com/sam-perrin) |
 | Philippe Charrière | [@k33g_org](https://twitter.com/k33g_org) | [k33g](https://github.com/k33g) |
+| John McCabe | [@mccabejohn](https://twitter.com/mccabejohn) | [johnmccabe](https://github.com/johnmccabe) ||
 
 ## Contest entries `#growlab` 🥇🥈🥉
 
@@ -87,6 +88,7 @@ Once your tunnel is up, youcan serve the directory directly from phototimer with
 |  Simon Emms       | [Bronze](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Silver](https://twitter.com/MrSimonEmms/status/1386361659187412996)  |   |
 |  Florian Clanet   | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   | |
 |  Philippe Charrière       |   |   |   |
+|  John McCabe   | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
 
 ## Community projects and add-ons
 
