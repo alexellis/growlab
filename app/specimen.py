@@ -57,6 +57,7 @@ class specimen:
         vals["temperature"] = "{:05.2f}{}C".format(readings["temperature"], degree_symbol)
         vals["humidity"] = "{:05.2f}%".format(readings["humidity"])
         vals["pressure"] = "{:05.2f}hPa".format(readings["pressure"])
+        vals["uid"] = "{}".format(time.time())
         html = template.render(vals)
 
         with open(output_path+"/index.html", "w") as html_file:
