@@ -13,7 +13,7 @@ if __name__ == "__main__":
     try:
         with open("./config.json") as f:
             config = json.loads(f.read())
-    except e:
+    except Exception as e:
         sys.stderr.write("Error: {}".format(e))
         sys.exit(1)
 

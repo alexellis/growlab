@@ -37,7 +37,7 @@ try:
           requests.post(function_url, data=json.dumps(readings), headers={"Content-type": "application/json"})
           print("Sent to function.. OK")
 
-        except e:
+        except Exception as e:
           print(e)
           continue
         time.sleep(sample_duration)
