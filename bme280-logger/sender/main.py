@@ -2,6 +2,7 @@ import time
 import os, json
 from sensors import growbme280
 import requests
+from datetime import datetime
 
 bme280 = growbme280()
 
@@ -31,7 +32,9 @@ try:
         readings = bme280.get_readings()
         readings["sensor"] = sensor_name
         readings["cpu_temperature"] = temp_cpu
-        readings["iso_time"] = time.ctime()
+
+        my_date = datetime.now()
+        readings["iso_time"] = my_date.isoformat()
         data = json.dumps(readings)
         print(data)
 

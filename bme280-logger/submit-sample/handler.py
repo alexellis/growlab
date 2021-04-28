@@ -1,7 +1,7 @@
 import json
 import os
 import time
-
+from datetime import datetime
 from influxdb import InfluxDBClient
 
 def handle(req):
@@ -38,7 +38,9 @@ def get_file(path):
 
 def make_points(r):
     tags = {"sensor": r["sensor"]}
-    iso_time = r["iso_time"]
+    # iso_time = r["iso_time"]
+    my_date = datetime.now()
+    iso_time = my_date.isoformat()
     points = []
 
     points.append({
