@@ -32,14 +32,19 @@ try:
         readings["sensor"] = sensor_name
         readings["cpu_temperature"] = temp_cpu
         readings["iso_time"] = time.ctime()
+        data = json.dumps(readings)
+        print(data)
 
         try:
-          requests.post(function_url, data=json.dumps(readings), headers={"Content-type": "application/json"})
-          print("Sent to function.. OK")
+            res = requests.post(function_url, data=data, headers={"Content-type": "application/json"})
+            if res.status_code != 200:
+                print("Unexpected status code: {}".format(res.status_code))
+            else:
+                print("Sent to function..OK.")
 
         except Exception as e:
-          print(e)
-          continue
+            print(e)
+            continue
         time.sleep(sample_duration)
 
 except KeyboardInterrupt:
