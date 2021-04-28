@@ -1,6 +1,8 @@
 # `#growlab` app for Raspberry Pi
 
-Create a timelapse with sensor data from a Bosch BME280 temperature, humidity and air pressure sensor.
+Record a timelapse and live preview image with sensor data from a Bosch BME280 temperature, humidity and air pressure sensor.
+
+See also: [app roadmap](https://github.com/alexellis/growlab/issues/15)
 
 ## Assembling the build
 
