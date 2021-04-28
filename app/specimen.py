@@ -1,5 +1,6 @@
 from PIL import Image, ImageFont, ImageDraw
 from jinja2 import Template
+import time
 
 class specimen:
     def __init__(self, text_config, image_config):
