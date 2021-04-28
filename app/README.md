@@ -132,15 +132,18 @@ git remote add origin git@github.com:alexellis/growlab.git
 
 Go to the repo settings and add the deploy key and check *Allow write access*
 
+Now run the sample.sh bash script. Feel free to view its contents to see how it works
+
 ```bash
 cd growlab/app
 
-python3 app.py
-cp html/* ../docs/
-git add ..
-git commit -s -m "Update images at `date`"
-GIT_SSH_COMMAND="ssh -i `pwd`/.ssh/id_rsa" git pull origin master --rebase
-GIT_SSH_COMMAND="ssh -i `pwd`/.ssh/id_rsa" git push origin master
+./sample.sh
+```
+
+You can also put this into a loop to run every 10 minutes:
+
+```bash
+while [ true ] ; do ./sample.sh && echo "waiting 10 minutes" && sleep 600 ; done 
 ```
 
 ### Install growlab as a service
