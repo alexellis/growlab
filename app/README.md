@@ -108,6 +108,32 @@ Test the code:
 python3 app.py
 ```
 
+### Serve a preview with GitHub pages
+
+Configure GitHub pages and / or a custom domain using the CNAME approach
+
+Set the folder for serving content to "docs"
+
+Generate an SSH key:
+
+```bash
+cd growlab/app
+mkdir -p .ssh
+
+ssh-keygen -f `pwd`/.ssh/id_rsa
+```
+
+Go to the repo settings and add the deploy key and check *Allow write access*
+
+```bash
+cd growlab/app
+python3 app.py
+cp html/* ../docs/
+git add ..
+git commit -s -m "Update images at `date`"
+GIT_SSH_COMMAND="ssh -i `pwd`/.ssh/id_rsa" git push origin master
+```
+
 ### Install growlab as a service
 
 Install the systemd service:
@@ -118,3 +144,5 @@ sudo cp growlab.service /etc/systemd/system
 sudo systemctl enable growlab
 sudo systemctl start growlab
 ```
+
+
