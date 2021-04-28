@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm html/*
-
 python3 app.py
 cp html/* ../docs/
 
