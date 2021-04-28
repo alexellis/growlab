@@ -2,6 +2,9 @@
 
 Record a timelapse and live preview image with sensor data from a Bosch BME280 temperature, humidity and air pressure sensor.
 
+![](https://pbs.twimg.com/media/E0DwywWXoAET9dK?format=jpg&name=medium)
+> Example HTML output which can be synced to GitHub Pages, an S3 bucket, or served directly from the RPi using [inlets](https://docs.inlets.dev/)
+
 See also: [app roadmap](https://github.com/alexellis/growlab/issues/15)
 
 ## Assembling the build
