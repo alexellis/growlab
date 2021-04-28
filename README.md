@@ -94,8 +94,12 @@ See the new [growlab app](/app) for your Raspberry Pi
 |  John McCabe   | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
 | Adam Craggs |  |  |  |  |
 
-## Community projects and add-ons
+## Official growlab software
 
+* [growlab app](/app) for creating a live-preview via GitHub Pages
+* [bme280-logger](/bme280-logger) for data-logging to InfluxDB, and for showing the time-series on a Grafana dashboard
 * phototimer for capturing photos from the RPi camera for a timelapse: [alexellis/phototimer](https://github.com/alexellis/phototimer)
+
+## Community projects and add-ons
 * Richard Gee's seeds2 repo for tweeting and capturing images: [rgee0/seeds2](https://github.com/rgee0/seeds2)
 * Sam Perrin's seed-viewer for viewing the images captured with phototimer [sam-perrin/seed-viewer](https://github.com/sam-perrin/seed-viewer)
