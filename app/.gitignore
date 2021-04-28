@@ -1,1 +1,7 @@
 /.ssh/*
+/roboto/*
+/html/*
+/image.jpg
+/preview.jpg
+
+/__pycache__/**
