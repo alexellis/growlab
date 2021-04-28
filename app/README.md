@@ -123,6 +123,13 @@ mkdir -p .ssh
 ssh-keygen -f `pwd`/.ssh/id_rsa
 ```
 
+Remove the HTTPS git remote and add a SSH one, changing "alexellis" to your own name.
+
+```bash
+git remote rm origin
+git remote add origin git@github.com:alexellis/growlab.git
+```
+
 Go to the repo settings and add the deploy key and check *Allow write access*
 
 ```bash
