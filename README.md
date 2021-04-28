@@ -65,7 +65,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 
 | Name                | Twitter         | GitHub        | Live preview URL |
 |---------------------|-----------------|---------------|------------------|
-| Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Images captured by phototimer](https://alexellis-growlab.exit.o6s.io/) |
+| Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Live preview with the growlab app](http://growlab.alexellis.io/) |
 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | [Images captured by phototimer](https://growlab.simonemms.com) |
 | Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | [Most recently captured image](https://growlab.technologee.co.uk/) |
 | Jakob Waibel | [@jakobwaibel](https://twitter.com/jakobwaibel) | [JakWai01](https://github.com/JakWai01) ||
@@ -79,18 +79,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 
 A live preview URL keeps things interesting and lets the community get a view inside your lab.
 
-If you have a Grafana dashboard, or a HTTP server that you'd like to share, then apply for an inlets PRO trial and say that you're doing a growlab, and we'll send you an extended trial and host a free exit-tunnel server for you. That way you can share your dashboard or images on the Internet. [Apply here](https://inlets.dev/)
-
-Once your tunnel is up, youcan serve the directory directly from phototimer with: 
-
-```bash
-inlets-pro http fileserver --webroot /home/pi/image \
-  --allow-browsing --port 8080
-```
-
-If you don't want to host a HTTP server or to create your own dashboard then there are other options too
-
-You could also do a period "git commit" of your latest capture, and then use GitHub Pages to publish that image to a website, or just use an S3 bucket and the AWS CLI to sync the latest image.
+See the new [growlab app](/app) for your Raspberry Pi
 
 ## Contest entries `#growlab` 🥇🥈🥉
 
