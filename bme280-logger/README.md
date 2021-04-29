@@ -83,11 +83,16 @@ FUNCTION_URL=http://192.168.0.21:8080/function/submit-sample \
   python3 main.py
 ```
 
-## Going further
+## Going further with a dashboard
 
 Deploy Grafana to faasd using the instructions in the [eBook Serverless For Everyone Else](https://gumroad.com/l/serverless-for-everyone-else)
 
 Then create yourself a simple dashboard for the measurements you see in the "readings" database.
 
 Once you have it up and running, create a datasource, then import the dashboard.json file and open the dashboard to view your sensor readings.
+
+![A very cold shed](https://pbs.twimg.com/media/E0H6WhfXIAAMOR3?format=jpg&name=medium)
+> My very cold shed - measured overnight!
+
+
 
