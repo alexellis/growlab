@@ -74,6 +74,12 @@
             },
             {
               "params": [
+                "sensor"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
                 "linear"
               ],
               "type": "fill"
@@ -197,6 +203,12 @@
                 "$__interval"
               ],
               "type": "time"
+            },
+            {
+              "params": [
+                "sensor"
+              ],
+              "type": "tag"
             },
             {
               "params": [
@@ -326,6 +338,12 @@
             },
             {
               "params": [
+                "sensor"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
                 "linear"
               ],
               "type": "fill"
@@ -452,6 +470,12 @@
             },
             {
               "params": [
+                "sensor"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
                 "linear"
               ],
               "type": "fill"
@@ -530,12 +554,12 @@
     "list": []
   },
   "time": {
-    "from": "now-3h",
+    "from": "now-5m",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "",
   "title": "BME280",
   "uid": "arM0loRRz",
-  "version": 9
+  "version": 12
 }
