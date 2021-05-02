@@ -68,7 +68,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Live preview with the growlab app](http://growlab.alexellis.io/) |
 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | [Images captured by phototimer](https://growlab.simonemms.com) |
 | Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | [Most recently captured image](https://growlab.technologee.co.uk/) |
-| Jakob Waibel | [@jakobwaibel](https://twitter.com/jakobwaibel) | [JakWai01](https://github.com/JakWai01) ||
+| Jakob Waibel | [@jakobwaibel](https://twitter.com/jakobwaibel) | [JakWai01](https://github.com/JakWai01) | [Live preview with the growlab app](https://jakwai01.github.io/growlab/)|
 | Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | [Flolight](https://github.com/Flolight) |
 | Felix Pojtinger | [@pojntfx](https://twitter.com/pojntfx) | [pojntfx](https://github.com/pojntfx) |
 | Sam Perrin | [@sam_perrin](https://twitter.com/sam_perrin) | [sam-perrin](https://github.com/sam-perrin) |
@@ -93,6 +93,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 |  Philippe Charrière       |   |   |   |
 |  John McCabe   | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
 | Adam Craggs |  |  |  |  |
+| Jakob Waibel | [Bronze](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Silver](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Gold](https://twitter.com/jakobwaibel/status/1388894057955479554) | [Platinum](https://www.youtube.com/watch?v=z8sY37OlFrw) |
 
 ## Community projects and add-ons
 
