@@ -1,0 +1,20 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  submit-sample:
+    lang: python3
+    handler: ./submit-sample
+    image: ghcr.io/alexellis/submit-sample:0.2.0
+    environment:
+      influx_host: 192.168.0.21
+      influx_port: 8086
+      influx_db: readings
+      write_debug: true
+      read_debug: true
+      combine_output: false
+    secrets:
+      - influx-user
+      - influx-pass

@@ -1,0 +1,3 @@
+rootProject.name = 'java11'
+
+include 'model', 'function', 'entrypoint'

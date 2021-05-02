@@ -1,0 +1,7 @@
+language: php7
+fprocess: php index.php
+welcome_message: |
+  You have created a new function which uses PHP 7.2.
+  Dependencies and extensions can be added using the composer.json
+  and php-extension.sh files.
+  See https://github.com/openfaas/templates/blob/master/template/php7.

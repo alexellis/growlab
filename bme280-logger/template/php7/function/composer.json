@@ -1,0 +1,17 @@
+{
+    "name": "openfaas/function-php7.2",
+    "description": "Template for function in PHP 7.2",
+    "type": "project",
+    "license": "proprietary",
+    "config": {
+        "classmap-authoritative": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    }
+}

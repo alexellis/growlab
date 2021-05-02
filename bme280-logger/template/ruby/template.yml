@@ -1,0 +1,23 @@
+language: ruby
+fprocess: ruby index.rb
+build_options:
+  - name: dev
+    packages:
+      - make
+      - automake
+      - gcc
+      - g++
+      - subversion
+      - python3-dev
+      - musl-dev
+      - libffi-dev
+      - libssh
+      - libssh-dev
+welcome_message: |
+  You have created a Ruby function using the Classic Watchdog.
+
+  To include third-party dependencies create a Gemfile. You can also
+  include developer-dependencies using the "dev" build_option.
+
+  For high-throughput applications, we recommend using the ruby-http
+  template.

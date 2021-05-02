@@ -1,0 +1,11 @@
+language: node12
+fprocess: node index.js
+welcome_message: |
+  You have created a new function which uses Node.js 12.
+  
+  npm i --save can be used to add third-party packages like request or cheerio
+  npm documentation: https://docs.npmjs.com/
+
+  Unit tests are run at build time via "npm run", edit package.json to specify 
+  how you want to execute them.
+

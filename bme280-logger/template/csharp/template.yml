@@ -1,0 +1,11 @@
+language: csharp
+fprocess: dotnet ./root.dll
+welcome_message: |
+  You have created a C# function using the Classic OpenFaaS Template.
+
+  To include third-party dependencies edit your .csproj file or install
+  Nuget packages with VSCode.
+
+  For high-throughput applications, we recommend using the csharp-kestrel
+  or csharp-httprequest templates available in the OpenFaaS template
+  store.

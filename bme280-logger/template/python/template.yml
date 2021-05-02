@@ -1,0 +1,30 @@
+language: python
+fprocess: python index.py
+build_options: 
+  - name: dev
+    packages: 
+      - make
+      - automake
+      - gcc
+      - g++
+      - subversion
+      - python3-dev
+      - musl-dev
+      - libffi-dev
+      - git
+  - name: mysql
+    packages: 
+      - mysql-client
+      - mysql-dev
+  - name: pillow
+    packages: 
+      - jpeg-dev
+      - zlib-dev
+      - freetype-dev
+      - lcms2-dev
+      - openjpeg-dev
+      - tiff-dev
+      - tk-dev
+      - tcl-dev
+      - harfbuzz-dev
+      - fribidi-dev
