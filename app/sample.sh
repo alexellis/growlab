@@ -1,10 +1,14 @@
 #!/bin/bash
-
 python3 app.py
-cp html/* ../docs/
 
-git add ..
+export GIT_SSH_COMMAND="ssh -i `pwd`/.ssh/id_rsa"
+
+cp html/* ./growlab-live/docs/
+cd growlab-live
+
+git add .
+
 git commit -s -m "Update images at `date`"
-GIT_SSH_COMMAND="ssh -i `pwd`/.ssh/id_rsa" git pull origin master --rebase
-GIT_SSH_COMMAND="ssh -i `pwd`/.ssh/id_rsa" git push origin master
+git pull origin master --rebase
+git push origin master
 
