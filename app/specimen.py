@@ -29,8 +29,6 @@ class specimen:
         bg_draw.rectangle((pos[0], pos[1], bg_size[0], bg_size[1]), fill=(0, 0, 0, overlay_transparency), outline=(255, 255, 255))
         bg_draw.text(xy=(pos[0]+10, pos[1]+10), text=msg, fill=colour, font=font)
 
-        bg_img.save("./alpha.png")
-#        img.paste(bg_img, box=(0,0))
         out = Image.alpha_composite(img, bg_img)
         print("Saving {}..".format(filename))
         r = out.convert('RGB')

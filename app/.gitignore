@@ -3,5 +3,5 @@
 /html/*
 /image.jpg
 /preview.jpg
-/alpha.png
+
 /__pycache__/**
