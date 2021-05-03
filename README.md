@@ -96,6 +96,12 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Adam Craggs |  |  |  |  |
 | Jakob Waibel | [Bronze](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Silver](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Gold](https://twitter.com/jakobwaibel/status/1388894057955479554) | [Platinum](https://www.youtube.com/watch?v=z8sY37OlFrw) |
 
+## Official growlab app
+
+* [Record images for the timelapse contest](https://github.com/alexellis/phototimer)
+* [Generate and upload a live-preview with sensor data [growlab app](/app)
+* [Sensor data-logger with Grafana dashboard](/bme280-logger)
+
 ## Community projects and add-ons
 
 * phototimer for capturing photos from the RPi camera for a timelapse: [alexellis/phototimer](https://github.com/alexellis/phototimer)
