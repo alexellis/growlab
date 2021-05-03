@@ -99,7 +99,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 ## Official growlab app
 
 * [Record images for the timelapse contest](https://github.com/alexellis/phototimer)
-* [Generate and upload a live-preview with sensor data [growlab app](/app)
+* [Generate and upload a live-preview with sensor data growlab app](/app)
 * [Sensor data-logger with Grafana dashboard](/bme280-logger)
 
 ## Community projects and add-ons
