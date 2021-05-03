@@ -217,7 +217,7 @@
               "type": "fill"
             }
           ],
-          "measurement": "cpu_temp",
+          "measurement": "cpu_temperature",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -561,5 +561,5 @@
   "timezone": "",
   "title": "BME280",
   "uid": "arM0loRRz",
-  "version": 12
+  "version": 14
 }

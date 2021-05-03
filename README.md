@@ -88,7 +88,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Name  | Bronze   | Silver   | Gold   | Platinum |
 |-------|----------|----------|--------|----------|
 | Alex Ellis        | [Bronze](https://twitter.com/alexellisuk/status/1380227185894690823)  |  [Silver](https://twitter.com/alexellisuk/status/1380227185894690823) | [Gold](https://twitter.com/alexellisuk/status1380417347861774337)  | [Platinum](https://www.youtube.com/watch?v=YiFUVAP0B18)  |
-| Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384765411913355265)  |   |
+| Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384765411913355265)  | [Platinum](https://twitter.com/rgee0/status/1387777830914768901)  |
 |  Simon Emms       | [Bronze](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Silver](https://twitter.com/MrSimonEmms/status/1386361659187412996)  |   |
 |  Florian Clanet   | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   | |
 |  Philippe Charrière       |   |   |   |
@@ -98,9 +98,9 @@ See the new [growlab app](/app) for your Raspberry Pi
 
 ## Official growlab app
 
-* [Record images for the timelapse contest](https://github.com/alexellis/phototimer)
-* [Generate and upload a live-preview with sensor data growlab app](/app)
-* [Sensor data-logger with Grafana dashboard](/bme280-logger)
+* [phototimer - Record images for the timelapse contest](https://github.com/alexellis/phototimer)
+* [app - Generate and upload a live-preview with sensor data growlab app](/app)
+* [bme280-logger - Capture environment data and plot on a Grafana dashboard](/bme280-logger)
 
 ## Community projects and add-ons
 
