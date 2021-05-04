@@ -22,13 +22,15 @@ Prizes to be provided by: [OpenFaaS Ltd](https://openfaas.com) and [Pimoroni](ht
 
 ### Unlock each level
 
+Before you get started with your build, send a PR to list yourself as a "lab technician".
+
 Bronze - assemble your `#growlab` using one of the recommend designs or customise it. Tweet a photo of your build.
 
 Silver - install the software and capture your first photo of your seeds in the soil. Tweet it using the seeds2 software, or copy the file to your computer and Tweet it from there.
 
 Gold - Wait until at least one of your seeds has germinated, and Tweet a second photo.
 
-Platinum - use the [phototimer](https://github.com/alexellis/phototimer) or seeds2 software to capture images over a week. Compile the images into a timelapse and upload it to YouTube. We recommend one photo every 10 minutes. Tweet a link to the video.
+Platinum - use the [phototimer](https://github.com/alexellis/phototimer) or seeds2 software to capture images over 14 days. Compile the images into a timelapse and upload it to YouTube. We recommend one photo every 10 minutes. Tweet a link to the video.
 
 ### Making your timelapse
 
