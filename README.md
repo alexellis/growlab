@@ -79,6 +79,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | Adam Craggs | [@abigpancake](https://twitter.com/abigpancake) | [agcraggs](https://github.com/agcraggs) |  |
 | Martin Woodward | [@martinwoodward](https://twitter.com/martinwoodward) | [martinwoodward](https://github.com/martinwoodward) |  |
 | Jérôme Velociter | [@jvelo](https://twitter.com/jvelo) | [jvelo](https://github.com/jvelo) |  |
+| Sander Vanhove | [@SanderWaylay](https://twitter.com/SanderWaylay) | [SanderVanhove](https://github.com/SanderVanhove) |  |
 
 ### Live preview URLs
 
@@ -98,6 +99,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 |  John McCabe   | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
 | Adam Craggs |  |  |  |  |
 | Jakob Waibel | [Bronze](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Silver](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Gold](https://twitter.com/jakobwaibel/status/1388894057955479554) | [Platinum](https://www.youtube.com/watch?v=z8sY37OlFrw) |
+|  Sander Vanhove   | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624?s=20) | | | |
 
 ## Official growlab app
 
