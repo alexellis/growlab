@@ -24,13 +24,13 @@ Prizes to be provided by: [OpenFaaS Ltd](https://openfaas.com) and [Pimoroni](ht
 
 Before you get started with your build, send a PR to list yourself as a "lab technician".
 
-Bronze - assemble your `#growlab` using one of the recommend designs or customise it. Tweet a photo of your build.
+Bronze - assemble your `#growlab` using one of the recommend designs or customise it. Tweet a photo of your build fully assembled.
 
-Silver - install the software and capture your first photo of your seeds in the soil. Tweet it using the seeds2 software, or copy the file to your computer and Tweet it from there.
+Silver - install the software and capture your first photo of your seed tray or pots. Tweet the photo.
 
-Gold - Wait until at least one of your seeds has germinated, and Tweet a second photo.
+Gold - Wait until at least one of your seeds has germinated and grown into a seedling - around 2-3cm in height. Tweet the photo taken by the timelapse software.
 
-Platinum - use the [phototimer](https://github.com/alexellis/phototimer) or seeds2 software to capture images over 14 days. Compile the images into a timelapse and upload it to YouTube. We recommend one photo every 10 minutes. Tweet a link to the video.
+Platinum - use the [phototimer](https://github.com/alexellis/phototimer) or seeds2 software to capture images over 14 days. Compile the images into a timelapse and upload it to YouTube. We recommend one photo every 10 minutes. Feel free to exclude any photos prior to the seeds germinating. Tweet a link to the video.
 
 ### Making your timelapse
 
