@@ -77,9 +77,10 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | Philippe Charrière | [@k33g_org](https://twitter.com/k33g_org) | [k33g](https://github.com/k33g) |
 | John McCabe | [@mccabejohn](https://twitter.com/mccabejohn) | [johnmccabe](https://github.com/johnmccabe) ||
 | Adam Craggs | [@abigpancake](https://twitter.com/abigpancake) | [agcraggs](https://github.com/agcraggs) |  |
-| Martin Woodward | [@martinwoodward](https://twitter.com/martinwoodward) | [martinwoodward](https://github.com/martinwoodward) |  |
+| Martin Woodward | [@martinwoodward](https://twitter.com/martinwoodward) | [martinwoodward](https://github.com/martinwoodward) | [Live preview](https://bfaulty.z16.web.core.windows.net/) |
 | Jérôme Velociter | [@jvelo](https://twitter.com/jvelo) | [jvelo](https://github.com/jvelo) |  |
 | Philippe Ensarguet | [@p_ensarguet](https://twitter.com/P_Ensarguet) | [pensarguet](https://github.com/pensarguet) |  |
+| Sander Vanhove | [@SanderWaylay](https://twitter.com/SanderWaylay) | [SanderVanhove](https://github.com/SanderVanhove) | [Live preview](https://www.sandervanhove.com/plant-monitor) |
 
 ### Live preview URLs
 
@@ -99,6 +100,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 |  John McCabe   | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
 | Adam Craggs |  |  |  |  |
 | Jakob Waibel | [Bronze](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Silver](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Gold](https://twitter.com/jakobwaibel/status/1388894057955479554) | [Platinum](https://www.youtube.com/watch?v=z8sY37OlFrw) |
+|  Sander Vanhove   | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624?s=20) | | | |
 
 ## Official growlab app
 
@@ -111,3 +113,4 @@ See the new [growlab app](/app) for your Raspberry Pi
 * phototimer for capturing photos from the RPi camera for a timelapse: [alexellis/phototimer](https://github.com/alexellis/phototimer)
 * Richard Gee's seeds2 repo for tweeting and capturing images: [rgee0/seeds2](https://github.com/rgee0/seeds2)
 * Sam Perrin's seed-viewer for viewing the images captured with phototimer [sam-perrin/seed-viewer](https://github.com/sam-perrin/seed-viewer)
+* Sander Vanhove's plant-monitor using Waylay: [SanderVanhove/plant-monitor](https://github.com/SanderVanhove/plant-monitor)
