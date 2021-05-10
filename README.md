@@ -94,7 +94,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 |-------|----------|----------|--------|----------|
 | Alex Ellis        | [Bronze](https://twitter.com/alexellisuk/status/1380227185894690823)  |  [Silver](https://twitter.com/alexellisuk/status/1380227185894690823) | [Gold](https://twitter.com/alexellisuk/status1380417347861774337)  | [Platinum](https://www.youtube.com/watch?v=YiFUVAP0B18)  |
 | Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384765411913355265)  | [Platinum](https://twitter.com/rgee0/status/1387777830914768901)  |
-|  Simon Emms       | [Bronze](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Silver](https://twitter.com/MrSimonEmms/status/1386361659187412996)  |   |
+|  Simon Emms       | [Bronze](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Silver](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Gold](https://twitter.com/MrSimonEmms/status/1391832940225630212) | [Platinum](https://twitter.com/MrSimonEmms/status/1391832943170146313) |
 |  Florian Clanet   | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   | |
 |  Philippe Charrière       |   |   |   |
 |  John McCabe   | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
