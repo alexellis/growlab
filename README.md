@@ -81,6 +81,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | Jérôme Velociter | [@jvelo](https://twitter.com/jvelo) | [jvelo](https://github.com/jvelo) |  |
 | Philippe Ensarguet | [@p_ensarguet](https://twitter.com/P_Ensarguet) | [pensarguet](https://github.com/pensarguet) |  |
 | Sander Vanhove | [@SanderWaylay](https://twitter.com/SanderWaylay) | [SanderVanhove](https://github.com/SanderVanhove) | [Live preview](https://www.sandervanhove.com/plant-monitor) |
+| Sergei Vasilev | [@nblpblc](https://twitter.com/nblpblc) | [sergevas](https://github.com/sergevas) | |
 
 ### Live preview URLs
 
