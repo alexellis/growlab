@@ -1,6 +1,6 @@
 # BME280 Data Logger with faasd
 
-This data logger writes measurements from a BME280 into a InfluxDB time-series database.
+This data logger writes measurements from a Bosch BME280 or BMP280 sensor into a InfluxDB time-series database.
 
 ## Deployment
 
@@ -83,6 +83,8 @@ FUNCTION_URL=http://192.168.0.21:8080/function/submit-sample \
   python3 main.py
 ```
 
+> Note: if you're using a BMP280 sensor then add an addition environment variable of `SENSOR=bmp280`
+
 ## Going further with a dashboard
 
 Deploy Grafana to faasd using the instructions in the [eBook Serverless For Everyone Else](https://gumroad.com/l/serverless-for-everyone-else)
@@ -93,6 +95,4 @@ Once you have it up and running, create a datasource, then import the dashboard.
 
 ![A very cold shed](https://pbs.twimg.com/media/E0H6WhfXIAAMOR3?format=jpg&name=medium)
 > My very cold shed - measured overnight!
-
-
 

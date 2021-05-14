@@ -53,7 +53,7 @@ Here's a sample from 9th-22nd April you can watch on YouTube:
 ![Self-watering system](https://pbs.twimg.com/media/EzZ1vDsXMAgNQKF?format=jpg&name=small)
 > A self-watering system
 
-* Overlay temperature and humidity data with an BME280 sensor
+* Overlay temperature and humidity data with a Bosch BME280 or BMP280 sensor
 * Add a self-watering system with a small pump and capacitive soil sensor
 * Try a garden RGB grow-light to give your seeds a little more help
 * Experiment with hydroponics
@@ -107,7 +107,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 
 * [phototimer - Record images for the timelapse contest](https://github.com/alexellis/phototimer)
 * [app - Generate and upload a live-preview with sensor data growlab app](/app)
-* [bme280-logger - Capture environment data and plot on a Grafana dashboard](/bme280-logger)
+* [data-logger - Capture environment data and plot on a Grafana dashboard](/data-logger)
 
 ## Community projects and add-ons
 
