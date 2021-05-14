@@ -4,6 +4,10 @@ This data logger writes measurements from a Bosch BME280 or BMP280 sensor into a
 
 ## Deployment
 
+You will run faasd on your Raspberry Pi 2, 3 or 4 to store data readings and to run OpenFaaS and Grafana.
+
+On your Raspberry Pi Zero, or whichever host has a sensor connected to it, you'll run the sender app.
+
 ### Deploy faasd
 
 Deploy faasd to your Raspberry Pi 3 or 4 [using these instructions](https://github.com/openfaas/faasd)
@@ -73,9 +77,19 @@ Build if you like:
 faas-cli publish -f stack.yml --platforms linux/arm/7
 ```
 
-### Deploy the sender onto your Raspberry Pi
+### Deploy the sender onto your Raspberry Pi with a sensor
 
-Copy the `sender` folder to your Raspberry Pi and run:
+On your Raspberry Pi with the sensor, you'll run the "sender" app. You will need to run through the pre-reqs for the main growlab app, which enables the sensor and updates Python etc.
+
+Copy the `sender` folder to your Raspberry Pi.
+
+Install any pip modules:
+
+```bash
+pip3 install -r requirements.txt
+```
+
+Then run the sender app:
 
 ```bash
 FUNCTION_URL=http://192.168.0.21:8080/function/submit-sample \
@@ -84,6 +98,8 @@ FUNCTION_URL=http://192.168.0.21:8080/function/submit-sample \
 ```
 
 > Note: if you're using a BMP280 sensor then add an addition environment variable of `SENSOR=bmp280`
+
+A sensor reading will be submitted to faasd every 30 seconds. You can alter this sample interval by editing [sender/main.py](sender/main.py).
 
 ## Going further with a dashboard
 
