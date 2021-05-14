@@ -9,12 +9,12 @@ sensor_name = os.getenv("SENSOR")
 sample_duration = 30  # seconds
 
 sensor = None
-sensor_name = os.getenv("SENSOR", "bme280")
-print("Sensor type: {}", sensor_name)
+sensor_type = os.getenv("SENSOR_TYPE", "bme280")
+print("Sensor type: {}", sensor_type)
 
-if sensor_name == "bme280":
+if sensor_type == "bme280":
     sensor = growbme280()
-elif sensor_name == "bmp280":
+elif sensor_type == "bmp280":
     sensor = growbmp280()
 
 if function_url == None:

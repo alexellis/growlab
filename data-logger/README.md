@@ -79,11 +79,29 @@ faas-cli publish -f stack.yml --platforms linux/arm/7
 
 ### Deploy the sender onto your Raspberry Pi with a sensor
 
-On your Raspberry Pi with the sensor, you'll run the "sender" app. You will need to run through the pre-reqs for the main growlab app, which enables the sensor and updates Python etc.
+On your Raspberry Pi with the sensor, you'll run the "sender" app.
 
-Copy the `sender` folder to your Raspberry Pi.
+Enable i2c and change the hostname as required using the `raspi-config` tool.
 
-Install any pip modules:
+If you haven't installed the main growlab app for live-previews, then install the below dependencies:
+
+```bash
+sudo apt update -qy && \
+  sudo apt install -qy python3 \
+  i2c-tools \
+  python3-pip \
+  git \
+  tmux
+```
+
+Clone the growlab app:
+
+```bash
+git clone https://github.com/alexellis/growlab
+cd growlab/data-logger/sender/
+```
+
+Install any pip modules required for the sender app:
 
 ```bash
 pip3 install -r requirements.txt

@@ -3,6 +3,8 @@ try:
 except ImportError:
     from smbus import SMBus
 from bme280 import BME280
+from bmp280 import BMP280
+
 import time
 
 class growbme280:
