@@ -1,6 +1,9 @@
 # `#growlab` app for Raspberry Pi
 
-Record a timelapse and live preview image with sensor data from a Bosch BME280 temperature, humidity and air pressure sensor.
+Record a timelapse and live preview image with sensor data from a Bosch BME280 or BMP280 sensor
+
+* The BME280 costs slightly more and measures: temperature, humidity and air pressure.
+* The BMP can only measure temperature and air pressure.
 
 ![](https://pbs.twimg.com/media/E0DwywWXoAET9dK?format=jpg&name=medium)
 > Example HTML output which can be synced to GitHub Pages, an S3 bucket, or served directly from the RPi using [inlets](https://docs.inlets.dev/)
@@ -10,8 +13,11 @@ See also: [app roadmap](https://github.com/alexellis/growlab/issues/15)
 ## Assembling the build
 
 * You'll need a Raspberry Pi Zero W or any other Raspberry Pi.
-* A BME280 sensor connected to GND, VCC SDL and SCL.
 * An RPi camera connected - any version
+* A Bosch BME280 or BMP280 sensor connected to GND, VCC SDL and SCL.
+
+![How to connect the sensor over i2c](sensor-i2c.png)
+> How to connect the sensor over i2c
 
 ### Configuring the RPi
 
@@ -23,12 +29,21 @@ Using `raspi-config`
 
 ### Getting started with the software
 
-Install git and tmux:
+Install git, tmux, Python and font pages
 
 ```bash
 sudo apt update -qy && \
-  sudo apt install -qy git tmux
+  sudo apt install -qy python3 \
+  i2c-tools \
+  python3-pip \
+  git \
+  tmux \
+  libopenjp2-7 \
+  libopenjp2-7-dev \
+  libopenjp2-tools
 ```
+
+> The `libopenjp2` package is for overlaying text on top of the images.
 
 Clone the repo:
 
@@ -43,19 +58,6 @@ Get the roboto font:
 curl -sSL https://github.com/googlefonts/roboto/releases/download/v2.138/roboto-unhinted.zip -o roboto.zip
 unzip roboto.zip -d roboto
 ```
-
-Install apt packages:
-
-```bash
-sudo apt update -qy && \
-  sudo apt install -qy python3 \
-  python3-pip \
-  libopenjp2-7 \
-  libopenjp2-7-dev \
-  libopenjp2-tools
-```
-
-The `libopenjp2` package is for overlaying text on top of the images.
 
 Install Python modules with `pip3`:
 

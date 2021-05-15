@@ -1,8 +1,12 @@
 # BME280 Data Logger with faasd
 
-This data logger writes measurements from a BME280 into a InfluxDB time-series database.
+This data logger writes measurements from a Bosch BME280 or BMP280 sensor into a InfluxDB time-series database.
 
 ## Deployment
+
+You will run faasd on your Raspberry Pi 2, 3 or 4 to store data readings and to run OpenFaaS and Grafana.
+
+On your Raspberry Pi Zero, or whichever host has a sensor connected to it, you'll run the sender app.
 
 ### Deploy faasd
 
@@ -73,15 +77,47 @@ Build if you like:
 faas-cli publish -f stack.yml --platforms linux/arm/7
 ```
 
-### Deploy the sender onto your Raspberry Pi
+### Deploy the sender onto your Raspberry Pi with a sensor
 
-Copy the `sender` folder to your Raspberry Pi and run:
+On your Raspberry Pi with the sensor, you'll run the "sender" app.
+
+Enable i2c and change the hostname as required using the `raspi-config` tool.
+
+If you haven't installed the main growlab app for live-previews, then install the below dependencies:
+
+```bash
+sudo apt update -qy && \
+  sudo apt install -qy python3 \
+  i2c-tools \
+  python3-pip \
+  git \
+  tmux
+```
+
+Clone the growlab app:
+
+```bash
+git clone https://github.com/alexellis/growlab
+cd growlab/data-logger/sender/
+```
+
+Install any pip modules required for the sender app:
+
+```bash
+pip3 install -r requirements.txt
+```
+
+Then run the sender app:
 
 ```bash
 FUNCTION_URL=http://192.168.0.21:8080/function/submit-sample \
   SENSOR=my-shed \
   python3 main.py
 ```
+
+> Note: if you're using a BMP280 sensor then add an addition environment variable of `SENSOR=bmp280`
+
+A sensor reading will be submitted to faasd every 30 seconds. You can alter this sample interval by editing [sender/main.py](sender/main.py).
 
 ## Going further with a dashboard
 
@@ -93,6 +129,4 @@ Once you have it up and running, create a datasource, then import the dashboard.
 
 ![A very cold shed](https://pbs.twimg.com/media/E0H6WhfXIAAMOR3?format=jpg&name=medium)
 > My very cold shed - measured overnight!
-
-
 

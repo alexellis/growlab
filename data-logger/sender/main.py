@@ -1,14 +1,21 @@
 import time
 import os, json
-from sensors import growbme280
+from sensors import growbme280, growbmp280
 import requests
 from datetime import datetime
-
-bme280 = growbme280()
 
 function_url = os.getenv("FUNCTION_URL")  # change this on each Pi
 sensor_name = os.getenv("SENSOR")
 sample_duration = 30  # seconds
+
+sensor = None
+sensor_type = os.getenv("SENSOR_TYPE", "bme280")
+print("Sensor type: {}", sensor_type)
+
+if sensor_type == "bme280":
+    sensor = growbme280()
+elif sensor_type == "bmp280":
+    sensor = growbmp280()
 
 if function_url == None:
     sys.stderr.write("env-var FUNCTION_URL is required i.e. http://192.168.0.21:8080/function/submit-sample")
@@ -29,7 +36,9 @@ try:
     while True:
         print("Gathering sensor data.")
         temp_cpu = get_cpu_temp()
-        readings = bme280.get_readings()
+
+        readings = sensor.get_readings()
+
         readings["sensor"] = sensor_name
         readings["cpu_temperature"] = temp_cpu
 
