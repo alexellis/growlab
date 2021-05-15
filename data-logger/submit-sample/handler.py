@@ -21,6 +21,10 @@ def handle(req):
     influx_pass = get_file("/var/openfaas/secrets/influx-pass")
     
     client = InfluxDBClient(influx_host, influx_port, influx_user, influx_pass, influx_db)
+    try:
+      client.create_database(influx_db)
+    except:
+      print("Database {} may already exist", influx_db)
 
     points = make_points(r)
 
