@@ -2,7 +2,7 @@
 
 import json
 import os, sys
-from sensors import growbme280, bmp280, grownosensor
+from sensors import growbme280, growbmp280, grownosensor
 from camera import camera
 from specimen import specimen
 
