@@ -37,7 +37,15 @@ class specimen:
 
     def format(self, readings):
         degree_symbol=u"\u00b0"
-        return "#growlab - {}\nTemperature: {:05.2f}{}C \nPressure: {:05.2f}hPa \nHumidity: {:05.2f}%".format(readings["time"], readings["temperature"], degree_symbol, readings["pressure"], readings["humidity"])
+        msg = "#growlab - {}\n".format(readings["time"])
+        if "temperature" in readings:
+            msg = "Temperature: {:05.2f}{}C \n".format(readings["temperature"],degree_symbol)
+        if "pressure" in readings:
+            msg = "Pressure: {:05.2f}hPa \n".format(readings["pressure"])
+        if "humidity" in readings:
+            msg = "nHumidity: {:05.2f}% \n".format(readings["humidity"])
+
+        return msg
 
     def save_html(self, input_filename, output_path, readings):
         img = Image.open(input_filename, "r")
@@ -51,11 +59,24 @@ class specimen:
 
         template = Template(template_text)
         degree_symbol=u"\u00b0"
+
         vals = {}
         vals["time"] = readings["time"]
-        vals["temperature"] = "{:05.2f}{}C".format(readings["temperature"], degree_symbol)
-        vals["humidity"] = "{:05.2f}%".format(readings["humidity"])
-        vals["pressure"] = "{:05.2f}hPa".format(readings["pressure"])
+        if "temperature" in readings:
+            vals["temperature"] = "{:05.2f}{}C".format(readings["temperature"], degree_symbol)
+        else:
+            vals["temperature"] = "N/A"
+
+        if "humidity" in readings:
+            vals["humidity"] = "{:05.2f}%".format(readings["humidity"])
+        else:
+            vals["humidity"] = "N/A"
+
+        if "pressure" in readings:
+            vals["pressure"] = "{:05.2f}hPa".format(readings["pressure"])
+        else:
+            vals["pressure"] = "N/A"
+
         vals["uid"] = "{}".format(time.time())
 
         html = template.render(vals)
