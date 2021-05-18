@@ -1,9 +1,17 @@
-# growlab
+<img src="https://growlab.dev/images/logo.svg" alt="Official logo" width="40%">
 
 ## A global contest to grow seeds and share your progress with the Raspberry Pi
 
+My early growlab
+
 ![My green beans](https://pbs.twimg.com/media/Ey1ugNwWgAIyUiJ?format=jpg&name=small)
 > A capture from phototimer of my seed tray with a wide-angle camera positioned above
+
+![My rig](https://pbs.twimg.com/media/E077X9mXEAY13LZ?format=jpg&name=small)
+> My own growlab laboratory
+
+![Graduated seedlings](https://pbs.twimg.com/media/E1hw8EZX0AABJNG?format=jpg&name=small)
+> Graduated seedlings
 
 ## New Live stream - 27th April 16:30 BST
 
