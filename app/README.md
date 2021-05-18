@@ -109,11 +109,14 @@ Edit the `config.json` file if needed and update the flip settings, and width an
 }
 ```
 
-Test the code:
+Capture a test photo and HTML page. You'll see the files generated in the `html` folder as `image.jpg` and `index.html`.
 
 ```bash
 python3 app.py
 ```
+
+* If you have no sensors, then run `SENSOR_TYPE=none`
+* If you have the BMP280, then prefix `SENSOR_TYPE=bmp280`
 
 ### Serve a preview with GitHub pages
 
@@ -163,5 +166,4 @@ sudo cp growlab.service /etc/systemd/system
 sudo systemctl enable growlab
 sudo systemctl start growlab
 ```
-
 
