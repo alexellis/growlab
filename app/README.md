@@ -166,4 +166,3 @@ sudo cp growlab.service /etc/systemd/system
 sudo systemctl enable growlab
 sudo systemctl start growlab
 ```
-

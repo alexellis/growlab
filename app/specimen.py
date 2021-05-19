@@ -44,7 +44,8 @@ class specimen:
             msg = msg + " Pressure: {:05.2f}hPa \n".format(readings["pressure"])
         if "humidity" in readings:
             msg = msg + " Humidity: {:05.2f}% \n".format(readings["humidity"])
-        return msg
+
+        return msg.rstrip() + " "
 
     def save_html(self, input_filename, output_path, readings):
         img = Image.open(input_filename, "r")
