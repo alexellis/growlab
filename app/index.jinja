@@ -36,42 +36,47 @@
                 <p class="card-text">Generated with the <a href="https://github.com/alexellis/growlab/tree/master/app">growlab app</a></p>
 
                 <h5>Latest readings</h5>
-		<div class="col-sm-6 col-lg-6 col-md-6 col-xl-6">
-                <table class="table">
-                    <thead>
-                        <tr>
-                        <th scope="col">Reading</th>
-                        <th scope="col">Value</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Time</td>
-                            <td>{{ time }}</td>
-                        </tr>
-                        <tr>
-                            <td>Temperature</td>
-                            <td>{{ temperature }}</td>
-                        </tr>
-                        <tr>
-                            <td>Humidity</td>
-                            <td>{{ humidity }}</td>
-                        </tr>
-                        <tr>
-                            <td>Pressure</td>
-                            <td>{{ pressure }}</td>
-                        </tr>
-                    </tbody>
-                </table>
-		</div>
+		        <div class="col-sm-6 col-lg-6 col-md-6 col-xl-6">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">Reading</th>
+                            <th scope="col">Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Time</td>
+                                <td>{{ time }}</td>
+                            </tr>
+                            <tr>
+                                <td>Temperature</td>
+                                <td>{{ temperature }}</td>
+                            </tr>
+                            <tr>
+                                <td>Humidity</td>
+                                <td>{{ humidity }}</td>
+                            </tr>
+                            <tr>
+                                <td>Pressure</td>
+                                <td>{{ pressure }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+		    </div>
 
                 <h5>Latest image</h5>
-		<div style="width: 85%;">
-	                <img class="figure-img img-fluid rounded" src="./preview.jpg?uid={{uid}}">
-		</div>
+                <div style="width: 85%;">
+                            <img class="figure-img img-fluid rounded" src="./preview.jpg?uid={{uid}}">
+                </div>
             </div>
         </div>
     </div>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.openfaas.com/">Growlab is sponsored by OpenFaaS Ltd</a>
+        </div>
+    </nav>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
