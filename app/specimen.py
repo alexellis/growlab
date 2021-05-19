@@ -39,12 +39,11 @@ class specimen:
         degree_symbol=u"\u00b0"
         msg = "#growlab - {}\n".format(readings["time"])
         if "temperature" in readings:
-            msg = "Temperature: {:05.2f}{}C \n".format(readings["temperature"],degree_symbol)
+            msg = msg + " Temperature: {:05.2f}{}C \n".format(readings["temperature"],degree_symbol)
         if "pressure" in readings:
-            msg = "Pressure: {:05.2f}hPa \n".format(readings["pressure"])
+            msg = msg + " Pressure: {:05.2f}hPa \n".format(readings["pressure"])
         if "humidity" in readings:
-            msg = "nHumidity: {:05.2f}% \n".format(readings["humidity"])
-
+            msg = msg + " Humidity: {:05.2f}% \n".format(readings["humidity"])
         return msg
 
     def save_html(self, input_filename, output_path, readings):
