@@ -2,7 +2,7 @@
 
 import json
 import os, sys
-from sensors import growbme280
+from sensors import growbme280, growbmp280, grownosensor
 from camera import camera
 from specimen import specimen
 
@@ -19,9 +19,16 @@ if __name__ == "__main__":
 
     print("Loaded config, saving images every {} seconds to {}".format( config["images"]["interval_seconds"], config["images"]["output_directory"]))
 
-    bme280 = growbme280()
+    sensor = None
+    sensor_type = os.getenv("SENSOR_TYPE", "bme280")
+    if sensor_type == "bme280":
+        sensor = growbme280()
+    if sensor_type == "bmp280":
+        sensor = growbmp280()
+    elif sensor_type == "none":
+        sensor = grownosensor()
 
-    readings = bme280.get_readings()
+    readings = sensor.get_readings()
     print(readings)
 
     cam = camera(config["images"])

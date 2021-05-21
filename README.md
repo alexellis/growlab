@@ -1,9 +1,17 @@
-# growlab
+<img src="https://growlab.dev/images/logo.svg" alt="Official logo" width="40%">
 
 ## A global contest to grow seeds and share your progress with the Raspberry Pi
 
+My early growlab
+
 ![My green beans](https://pbs.twimg.com/media/Ey1ugNwWgAIyUiJ?format=jpg&name=small)
 > A capture from phototimer of my seed tray with a wide-angle camera positioned above
+
+![My rig](https://pbs.twimg.com/media/E077X9mXEAY13LZ?format=jpg&name=small)
+> My own growlab laboratory
+
+![Graduated seedlings](https://pbs.twimg.com/media/E1hw8EZX0AABJNG?format=jpg&name=small)
+> Graduated seedlings
 
 ## New Live stream - 27th April 16:30 BST
 
@@ -24,13 +32,13 @@ Prizes to be provided by: [OpenFaaS Ltd](https://openfaas.com) and [Pimoroni](ht
 
 Before you get started with your build, send a PR to list yourself as a "lab technician".
 
-Bronze - assemble your `#growlab` using one of the recommend designs or customise it. Tweet a photo of your build.
+Bronze - assemble your `#growlab` using one of the recommend designs or customise it. Tweet a photo of your build fully assembled.
 
-Silver - install the software and capture your first photo of your seeds in the soil. Tweet it using the seeds2 software, or copy the file to your computer and Tweet it from there.
+Silver - install the software and capture your first photo of your seed tray or pots. Tweet the photo.
 
-Gold - Wait until at least one of your seeds has germinated, and Tweet a second photo.
+Gold - Wait until at least one of your seeds has germinated and grown into a seedling - around 2-3cm in height. Tweet the photo taken by the timelapse software.
 
-Platinum - use the [phototimer](https://github.com/alexellis/phototimer) or seeds2 software to capture images over 14 days. Compile the images into a timelapse and upload it to YouTube. We recommend one photo every 10 minutes. Tweet a link to the video.
+Platinum - use the [phototimer](https://github.com/alexellis/phototimer) or seeds2 software to capture images over 14 days. Compile the images into a timelapse and upload it to YouTube. We recommend one photo every 10 minutes. Feel free to exclude any photos prior to the seeds germinating. Tweet a link to the video.
 
 ### Making your timelapse
 
@@ -53,7 +61,7 @@ Here's a sample from 9th-22nd April you can watch on YouTube:
 ![Self-watering system](https://pbs.twimg.com/media/EzZ1vDsXMAgNQKF?format=jpg&name=small)
 > A self-watering system
 
-* Overlay temperature and humidity data with an BME280 sensor
+* Overlay temperature and humidity data with a Bosch BME280 or BMP280 sensor
 * Add a self-watering system with a small pump and capacitive soil sensor
 * Try a garden RGB grow-light to give your seeds a little more help
 * Experiment with hydroponics
@@ -65,22 +73,28 @@ Here's a sample from 9th-22nd April you can watch on YouTube:
 
 Technicians work in laboratories, and you are no different, so if you've bought your kit, or have decided to join, then add your details below so that we can encourage each other and see how many people are participating. If you don't have a Twitter or GitHub handle just put N/a.
 
-| Name                | Twitter         | GitHub        | Live preview URL |
-|---------------------|-----------------|---------------|------------------|
-| Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Live preview with the growlab app](http://growlab.alexellis.io/) |
-| Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | [Images captured by phototimer](https://growlab.simonemms.com) |
-| Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | [Most recently captured image](https://growlab.technologee.co.uk/) |
-| Jakob Waibel | [@jakobwaibel](https://twitter.com/jakobwaibel) | [JakWai01](https://github.com/JakWai01) | [Live preview with the growlab app](https://jakwai01.github.io/growlab/)|
-| Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | [Flolight](https://github.com/Flolight) |
-| Felix Pojtinger | [@pojntfx](https://twitter.com/pojntfx) | [pojntfx](https://github.com/pojntfx) |
-| Sam Perrin | [@sam_perrin](https://twitter.com/sam_perrin) | [sam-perrin](https://github.com/sam-perrin) |
-| Philippe Charrière | [@k33g_org](https://twitter.com/k33g_org) | [k33g](https://github.com/k33g) |
-| John McCabe | [@mccabejohn](https://twitter.com/mccabejohn) | [johnmccabe](https://github.com/johnmccabe) ||
-| Adam Craggs | [@abigpancake](https://twitter.com/abigpancake) | [agcraggs](https://github.com/agcraggs) |  |
-| Martin Woodward | [@martinwoodward](https://twitter.com/martinwoodward) | [martinwoodward](https://github.com/martinwoodward) | [Live preview](https://bfaulty.z16.web.core.windows.net/) |
-| Jérôme Velociter | [@jvelo](https://twitter.com/jvelo) | [jvelo](https://github.com/jvelo) |  |
-| Philippe Ensarguet | [@p_ensarguet](https://twitter.com/P_Ensarguet) | [pensarguet](https://github.com/pensarguet) |  |
-| Sander Vanhove | [@SanderWaylay](https://twitter.com/SanderWaylay) | [SanderVanhove](https://github.com/SanderVanhove) | [Live preview](https://www.sandervanhove.com/plant-monitor) |
+| # | Name                | Twitter         | GitHub        | Live preview URL |
+|---|---------------------|-----------------|---------------|------------------|
+| 1 | Alex Ellis | [@alexellisuk](https://twitter.com/alexellisuk) | [alexellis](https://github.com/alexellis)  | [Live preview with the growlab app](http://growlab.alexellis.io/) |
+| 2 | Simon Emms | [@MrSimonEmms](https://twitter.com/MrSimonEmms)  | [MrSimonEmms](https://github.com/MrSimonEmms)  | [Images captured by phototimer](https://growlab.simonemms.com) |
+| 3 | Richard Gee | [@rgee0](https://twitter.com/rgee0) | [rgee0](https://github.com/rgee0)  | [Most recently captured image](https://growlab.technologee.co.uk/) |
+| 4 | Jakob Waibel | [@jakobwaibel](https://twitter.com/jakobwaibel) | [JakWai01](https://github.com/JakWai01) | [Live preview with the growlab app](https://jakwai01.github.io/growlab/)|
+| 5 | Florian Clanet | [@FlolightC](https://twitter.com/FlolightC)  | [Flolight](https://github.com/Flolight) |
+| 6 | Felix Pojtinger | [@pojntfx](https://twitter.com/pojntfx) | [pojntfx](https://github.com/pojntfx) |
+| 7 | Sam Perrin | [@sam_perrin](https://twitter.com/sam_perrin) | [sam-perrin](https://github.com/sam-perrin) |
+| 8 | Philippe Charrière | [@k33g_org](https://twitter.com/k33g_org) | [k33g](https://github.com/k33g) |
+| 9 | John McCabe | [@mccabejohn](https://twitter.com/mccabejohn) | [johnmccabe](https://github.com/johnmccabe) ||
+| 10 | Adam Craggs | [@abigpancake](https://twitter.com/abigpancake) | [agcraggs](https://github.com/agcraggs) |  |
+| 11 | Martin Woodward | [@martinwoodward](https://twitter.com/martinwoodward) | [martinwoodward](https://github.com/martinwoodward) | [Live preview](https://bfaulty.z16.web.core.windows.net/) |
+| 12 | Jérôme Velociter | [@jvelo](https://twitter.com/jvelo) | [jvelo](https://github.com/jvelo) |  |
+| 13 | Philippe Ensarguet | [@p_ensarguet](https://twitter.com/P_Ensarguet) | [pensarguet](https://github.com/pensarguet) |  |
+| 14 | Sander Vanhove | [@SanderWaylay](https://twitter.com/SanderWaylay) | [SanderVanhove](https://github.com/SanderVanhove) | [Live preview](https://www.sandervanhove.com/plant-monitor) |
+| 15 | Sergei Vasilev | [@nblpblc](https://twitter.com/nblpblc) | [sergevas](https://github.com/sergevas) | |
+| 16 | IbooNox | [@iboonox](https://twitter.com/iboonox) | [iboonox](https://github.com/iboonox) | |
+| 17 | Allan Pead | [@adpead](https://twitter.com/adpead) | [apead](https://github.com/apead) | |
+| 18 | Keith Hubner | [@keithhubner](https://twitter.com/keithhubner) | [keithhubner](https://github.com/keithhubner) | [Live preview](https://growlab.hubner.co.uk/) |
+| 19 | Antoine Mouchere | [@mouchere_a](https://twitter.com/mouchere_a) | [amouchere](https://github.com/amouchere/growlab-project#readme) | [Live preview](https://amouchere.github.io/growlab-preview/) |
+
 
 ### Live preview URLs
 
@@ -94,7 +108,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 |-------|----------|----------|--------|----------|
 | Alex Ellis        | [Bronze](https://twitter.com/alexellisuk/status/1380227185894690823)  |  [Silver](https://twitter.com/alexellisuk/status/1380227185894690823) | [Gold](https://twitter.com/alexellisuk/status1380417347861774337)  | [Platinum](https://www.youtube.com/watch?v=YiFUVAP0B18)  |
 | Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384765411913355265)  | [Platinum](https://twitter.com/rgee0/status/1387777830914768901)  |
-|  Simon Emms       | [Bronze](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Silver](https://twitter.com/MrSimonEmms/status/1386361659187412996)  |   |
+|  Simon Emms       | [Bronze](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Silver](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Gold](https://twitter.com/MrSimonEmms/status/1391832940225630212) | [Platinum](https://twitter.com/MrSimonEmms/status/1391832943170146313) |
 |  Florian Clanet   | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   | |
 |  Philippe Charrière       |   |   |   |
 |  John McCabe   | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
@@ -107,7 +121,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 
 * [phototimer - Record images for the timelapse contest](https://github.com/alexellis/phototimer)
 * [app - Generate and upload a live-preview with sensor data growlab app](/app)
-* [bme280-logger - Capture environment data and plot on a Grafana dashboard](/bme280-logger)
+* [data-logger - Capture environment data and plot on a Grafana dashboard](/data-logger)
 
 ## Community projects and add-ons
 

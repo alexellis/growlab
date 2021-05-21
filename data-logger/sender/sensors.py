@@ -7,17 +7,6 @@ from bmp280 import BMP280
 
 import time
 
-class grownosensor:
-    def __init__(self):
-        pass
-
-    def get_readings(self):
-        time_str = time.strftime("%H:%M:%S")
-
-        return {
-            "time": time_str,
-        }
-
 class growbme280:
     def __init__(self):
         self.bus = SMBus(1)
