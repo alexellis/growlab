@@ -115,6 +115,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Adam Craggs |  |  |  |  |
 | Jakob Waibel | [Bronze](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Silver](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Gold](https://twitter.com/jakobwaibel/status/1388894057955479554) | [Platinum](https://www.youtube.com/watch?v=z8sY37OlFrw) |
 |  Sander Vanhove   | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624?s=20) | | | |
+|  Philippe Ensarguet   | |[Silver](https://twitter.com/P_Ensarguet/status/1395743166507139072) | | |
 
 ## Official growlab app
 
