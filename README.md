@@ -94,6 +94,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 17 | Allan Pead | [@adpead](https://twitter.com/adpead) | [apead](https://github.com/apead) | |
 | 18 | Keith Hubner | [@keithhubner](https://twitter.com/keithhubner) | [keithhubner](https://github.com/keithhubner) | [Live preview](https://growlab.hubner.co.uk/) |
 | 19 | Antoine Mouchere | [@mouchere_a](https://twitter.com/mouchere_a) | [amouchere](https://github.com/amouchere/growlab-project#readme) | [Live preview](https://amouchere.github.io/growlab-preview/) |
+| 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| |
 
 
 ### Live preview URLs
@@ -107,15 +108,26 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Name  | Bronze   | Silver   | Gold   | Platinum |
 |-------|----------|----------|--------|----------|
 | Alex Ellis        | [Bronze](https://twitter.com/alexellisuk/status/1380227185894690823)  |  [Silver](https://twitter.com/alexellisuk/status/1380227185894690823) | [Gold](https://twitter.com/alexellisuk/status1380417347861774337)  | [Platinum](https://www.youtube.com/watch?v=YiFUVAP0B18)  |
-| Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384765411913355265)  | [Platinum](https://twitter.com/rgee0/status/1387777830914768901)  |
 |  Simon Emms       | [Bronze](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Silver](https://twitter.com/MrSimonEmms/status/1386361659187412996)  | [Gold](https://twitter.com/MrSimonEmms/status/1391832940225630212) | [Platinum](https://twitter.com/MrSimonEmms/status/1391832943170146313) |
+| Richard Gee       | [Bronze](https://twitter.com/rgee0/status/1383379807585521665)  | [Silver](https://twitter.com/rgee0/status/1383379805928759301)  | [Gold](https://twitter.com/rgee0/status/1384765411913355265)  | [Platinum](https://twitter.com/rgee0/status/1393890208446402561)  |
+| Jakob Waibel      | [Bronze](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Silver](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Gold](https://twitter.com/jakobwaibel/status/1388894057955479554) | [Platinum](https://www.youtube.com/watch?v=z8sY37OlFrw) |
 |  Florian Clanet   | [Bronze](https://twitter.com/FlolightC/status/1384587367785369602) | [Silver](https://twitter.com/FlolightC/status/1383802323164561418) |   | |
-|  Philippe Charrière       |   |   |   |
-|  John McCabe   | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
-| Adam Craggs |  |  |  |  |
-| Jakob Waibel | [Bronze](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Silver](https://twitter.com/jakobwaibel/status/1386372010658443265) | [Gold](https://twitter.com/jakobwaibel/status/1388894057955479554) | [Platinum](https://www.youtube.com/watch?v=z8sY37OlFrw) |
-|  Sander Vanhove   | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624?s=20) | | | |
-|  Philippe Ensarguet   | |[Silver](https://twitter.com/P_Ensarguet/status/1395743166507139072) | | |
+|  Felix Pojtinger    |   |   |   |
+|   Sam Perrin        | [Bronze](https://twitter.com/sam_perrin/status/1391383693860687876) | [Silver](https://twitter.com/sam_perrin/status/1391383693860687876) | [Gold](https://twitter.com/sam_perrin/status/1393898134527414272) | |
+| Philippe Charrière  |   |   |   |
+|  John McCabe        | [Bronze](https://twitter.com/mccabejohn/status/1387001148419227648) | | | |
+| Adam Craggs         | [Brone](https://twitter.com/ABigPancake/status/1387414840914894851) |  |  |  |
+| Martin Woodward     | [Bronze](https://twitter.com/martinwoodward/status/1388813602828730369) | [Silver](https://twitter.com/martinwoodward/status/1388887836196098049)| [Gold](https://twitter.com/martinwoodward/status/1392376722612445184) | |
+| Jérôme Velociter    | [Bronze](https://twitter.com/jvelo/status/1393892964305448961) | | | |
+|  Philippe Ensarguet | [Bronze](https://twitter.com/P_Ensarguet/status/1391382014557933569) |[Silver](https://twitter.com/P_Ensarguet/status/1395743166507139072) |  | |
+|  Sander Vanhove     | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624) | | | |
+|  Sergei Vasilev     | | | | |
+|  IbooNox            | [Bronze](https://twitter.com/iboonox/status/1393532825031397377) | [Silver](https://twitter.com/iboonox/status/1393532908166602753)| [Gold](https://twitter.com/iboonox/status/1395105689161412614) | |
+| Allan Pead          | [Bronze](https://twitter.com/adpead/status/1393984772381229059) | [Silver](https://twitter.com/adpead/status/1394906481515024385) | | |
+| Keith Hubner        | [Bronze](https://twitter.com/keithhubner/status/1393611768660963335) | [Silver](https://twitter.com/keithhubner/status/1394203963352887301) | [Gold](https://twitter.com/keithhubner/status/1394608874636914690) | |
+| Antoine Mouchere    | [Bronze](https://twitter.com/mouchere_a/status/1394303190691106816)  | | | |
+| Kyle Brennan        | | | | |
+
 
 ## Official growlab app
 
