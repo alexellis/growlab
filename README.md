@@ -33,7 +33,7 @@ Prizes to be provided by: [OpenFaaS Ltd](https://openfaas.com) and [Pimoroni](ht
 
 Before you get started with your build, send a PR to list yourself as a "lab technician".
 
-Bronze - assemble your `#growlab` using one of the recommend designs or customise it. Tweet a photo of your build fully assembled.
+Bronze - assemble your `#growlab` using one of the recommended designs or customise it. Tweet a photo of your build fully assembled.
 
 Silver - install the software and capture your first photo of your seed tray or pots. Tweet the photo.
 
@@ -69,6 +69,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| |
 | 21 | Ben Hughes | [@bwghghs](https://twitter.com/bwghghs) | [bwghughes](https://github.com/bwghughes)| [Live Preview](https://bwghughes.github.io/growlab/app/docs/) |
 | 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview - Soon!]()
+| 23 | Martyn Taylor-Sherwood | [@mtaylorsherwood](https://twitter.com/mtaylorsherwood) | [mtaylorsherwood](https://github.com/mtaylorsherwood)| [Live Preview](https://mtaylorsherwood.github.io/growlab-live/)
 
 ### Live preview URLs
 
@@ -101,6 +102,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Antoine Mouchere    | [Bronze](https://twitter.com/mouchere_a/status/1394303190691106816)  | | | |
 | Kyle Brennan        | | | | |
 | Carlos Panato       | | | | |
+| Martyn Taylor-Sherwood | [Bronze](https://twitter.com/mtaylorsherwood/status/1396778632161505281) | | | |
 
 
 ## Official growlab app
