@@ -1,4 +1,4 @@
-<img src="https://growlab.dev/images/logo-black.svg" alt="Official logo" width="40%">
+<img src="https://growlab.dev/images/logo-green.svg" alt="Official logo" width="40%">
 
 ## A global contest to grow seeds and share your progress with the Raspberry Pi
 
