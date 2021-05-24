@@ -59,7 +59,7 @@ Create a secret for the InfluxDB user:
 ```bash
 export PASSWORD=""
 
-faas-cli secret create influx-password --from-literal $PASSWORD
+faas-cli secret create influx-pass --from-literal $PASSWORD
 faas-cli secret create influx-user --from-literal admin
 ```
 
