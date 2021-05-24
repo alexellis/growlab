@@ -68,6 +68,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 19 | Antoine Mouchere | [@mouchere_a](https://twitter.com/mouchere_a) | [amouchere](https://github.com/amouchere/growlab-project#readme) | [Live preview](https://amouchere.github.io/growlab-preview/) |
 | 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| |
 | 21 | Ben Hughes | [@bwghghs](https://twitter.com/bwghghs) | [bwghughes](https://github.com/bwghughes)| [Live Preview](https://bwghughes.github.io/growlab/app/docs/) |
+| 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview - Soon!]()
 
 ### Live preview URLs
 
@@ -99,6 +100,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Keith Hubner        | [Bronze](https://twitter.com/keithhubner/status/1393611768660963335) | [Silver](https://twitter.com/keithhubner/status/1394203963352887301) | [Gold](https://twitter.com/keithhubner/status/1394608874636914690) | |
 | Antoine Mouchere    | [Bronze](https://twitter.com/mouchere_a/status/1394303190691106816)  | | | |
 | Kyle Brennan        | | | | |
+| Carlos Panato       | | | | |
 
 
 ## Official growlab app
