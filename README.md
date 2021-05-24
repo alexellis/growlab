@@ -13,9 +13,10 @@ My early growlab
 ![Graduated seedlings](https://pbs.twimg.com/media/E1hw8EZX0AABJNG?format=jpg&name=small)
 > Graduated seedlings
 
-## New Live stream - 27th April 16:30 BST
+## Videos
 
-Got started already, or just want to learn more? Tune into the live stream [Grow your own with Raspberry Pi - Alex Ellis & Richard Gee](https://www.youtube.com/watch?v=Ta_LBKpI5-0)
+* [Overview - Growing your own with the Raspberry Pi with Alex Ellis at GIFEE Day](https://www.youtube.com/watch?v=GE7kyi6kFJY)
+* [Live stream "Grow your own with Raspberry Pi" - Alex Ellis & Richard Gee](https://www.youtube.com/watch?v=Ta_LBKpI5-0)
 
 ## How it works
 
@@ -39,35 +40,6 @@ Silver - install the software and capture your first photo of your seed tray or 
 Gold - Wait until at least one of your seeds has germinated and grown into a seedling - around 2-3cm in height. Tweet the photo taken by the timelapse software.
 
 Platinum - use the [phototimer](https://github.com/alexellis/phototimer) or seeds2 software to capture images over 14 days. Compile the images into a timelapse and upload it to YouTube. We recommend one photo every 10 minutes. Feel free to exclude any photos prior to the seeds germinating. Tweet a link to the video.
-
-### Making your timelapse
-
-If you're using phototimer, then you can run the following:
-
-```bash
-echo $(echo $(find ./Desktop/image/ | sort -V|grep jpg)) | xargs cat | ffmpeg  -framerate 10 -f image2pipe -vcodec mjpeg -i - -vcodec libx264 out.mp4
-```
-
-iMovie is also relatively easy to use, by dragging the images into the timeline and changing the time between images to ~ 0.1s
-
-Here's a sample from 9th-22nd April you can watch on YouTube:
-
-[![](https://img.youtube.com/vi/YiFUVAP0B18/hqdefault.jpg)](https://www.youtube.com/watch?v=YiFUVAP0B18)
-
-[Click here](https://www.youtube.com/watch?v=YiFUVAP0B18) to watch my video timelapse
-
-### Extra points and taking things further
-
-![Self-watering system](https://pbs.twimg.com/media/EzZ1vDsXMAgNQKF?format=jpg&name=small)
-> A self-watering system
-
-* Overlay temperature and humidity data with a Bosch BME280 or BMP280 sensor
-* Add a self-watering system with a small pump and capacitive soil sensor
-* Try a garden RGB grow-light to give your seeds a little more help
-* Experiment with hydroponics
-* Install your lab in an outdoor greenhouse, shed or cold-frame
-* Use a light sensor / LDR or UV sensor measure available light
-* Try a suitable solar panel and battery capacity to run your experiment outdoors or in a room without a socket
 
 ## Growlab Technicians
 
@@ -96,7 +68,6 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 19 | Antoine Mouchere | [@mouchere_a](https://twitter.com/mouchere_a) | [amouchere](https://github.com/amouchere/growlab-project#readme) | [Live preview](https://amouchere.github.io/growlab-preview/) |
 | 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| |
 | 21 | Ben Hughes | [@bwghghs](https://twitter.com/bwghghs) | [bwghughes](https://github.com/bwghughes)| [Live Preview](https://bwghughes.github.io/growlab/app/docs/) |
-
 
 ### Live preview URLs
 
@@ -135,6 +106,35 @@ See the new [growlab app](/app) for your Raspberry Pi
 * [phototimer - Record images for the timelapse contest](https://github.com/alexellis/phototimer)
 * [app - Generate and upload a live-preview with sensor data growlab app](/app)
 * [data-logger - Capture environment data and plot on a Grafana dashboard](/data-logger)
+
+### Making your timelapse
+
+If you're using phototimer, then you can run the following with ffmpeg. It's advised that you copy the images to your PC before running the command since the Raspberry Pi Zero is rather slow at crunching videos.
+
+```bash
+echo $(echo $(find ./Desktop/image/ | sort -V|grep jpg)) | xargs cat | ffmpeg  -framerate 10 -f image2pipe -vcodec mjpeg -i - -vcodec libx264 out.mp4
+```
+
+iMovie is also relatively easy to use, by dragging the images into the timeline and changing the time between images to ~ 0.1s
+
+Here's a sample from 9th-22nd April you can watch on YouTube:
+
+[![](https://img.youtube.com/vi/YiFUVAP0B18/hqdefault.jpg)](https://www.youtube.com/watch?v=YiFUVAP0B18)
+
+[Click here](https://www.youtube.com/watch?v=YiFUVAP0B18) to watch my video timelapse
+
+### Extra points and taking things further
+
+![Self-watering system](https://pbs.twimg.com/media/EzZ1vDsXMAgNQKF?format=jpg&name=small)
+> A self-watering system
+
+* Overlay temperature and humidity data with a Bosch BME280 or BMP280 sensor
+* Add a self-watering system with a small pump and capacitive soil sensor
+* Try a garden RGB grow-light to give your seeds a little more help
+* Experiment with hydroponics
+* Install your lab in an outdoor greenhouse, shed or cold-frame
+* Use a light sensor / LDR or UV sensor measure available light
+* Try a suitable solar panel and battery capacity to run your experiment outdoors or in a room without a socket
 
 ## Community projects and add-ons
 
