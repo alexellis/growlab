@@ -26,7 +26,7 @@ if __name__ == "__main__":
     if sensor_type == "bmp280":
         sensor = growbmp280()
     if sensor_type == "bme680":
-        sensor = growbme680(config["sensors"]["oversample"])
+        sensor = growbme680()
     elif sensor_type == "none":
         sensor = grownosensor()
 

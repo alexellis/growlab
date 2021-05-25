@@ -1,4 +1,5 @@
 requests
 pimoroni-bme280
 bmp280
+bme680
 smbus

@@ -65,17 +65,14 @@ class growbmp280:
         }
 
 class growbme680:
-    def __init__(self, oversample=True):
+    def __init__(self):
         self.sensor = bme680.BME680(bme680.I2C_ADDR_PRIMARY)
-        self.oversample = oversample
 
     def get_readings(self):
-        if self.oversample:
-            print("Oversampling")
-            self.sensor.set_humidity_oversample(bme680.OS_2X)
-            self.sensor.set_pressure_oversample(bme680.OS_4X)
-            self.sensor.set_temperature_oversample(bme680.OS_8X)
-            self.sensor.set_filter(bme680.FILTER_SIZE_3)
+        self.sensor.set_humidity_oversample(bme680.OS_2X)
+        self.sensor.set_pressure_oversample(bme680.OS_4X)
+        self.sensor.set_temperature_oversample(bme680.OS_8X)
+        self.sensor.set_filter(bme680.FILTER_SIZE_3)
 
         temperature = self.sensor.data.temperature
         pressure = self.sensor.data.pressure

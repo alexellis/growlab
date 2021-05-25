@@ -1,6 +1,6 @@
 import time
 import os, json
-from sensors import growbme280, growbmp280
+from sensors import growbme280, growbmp280, growbme680
 import requests
 from datetime import datetime
 
@@ -14,8 +14,10 @@ print("Sensor type: {}", sensor_type)
 
 if sensor_type == "bme280":
     sensor = growbme280()
-elif sensor_type == "bmp280":
+if sensor_type == "bmp280":
     sensor = growbmp280()
+elif sensor_type == "bme680":
+    sensor = growbme680()
 
 if function_url == None:
     sys.stderr.write("env-var FUNCTION_URL is required i.e. http://192.168.0.21:8080/function/submit-sample")
