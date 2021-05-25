@@ -2,7 +2,7 @@
 
 import json
 import os, sys
-from sensors import growbme280, growbmp280, grownosensor
+from sensors import growbme280, growbmp280, growbme680, grownosensor
 from camera import camera
 from specimen import specimen
 
@@ -25,6 +25,8 @@ if __name__ == "__main__":
         sensor = growbme280()
     if sensor_type == "bmp280":
         sensor = growbmp280()
+    if sensor_type == "bme680":
+        sensor = growbme680(config["sensors"]["oversample"])
     elif sensor_type == "none":
         sensor = grownosensor()
 

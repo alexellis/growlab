@@ -18,5 +18,8 @@
             "blue": 255
         },
         "size": 48
+    },
+    "sensors": {
+        "oversample": true
     }
 }

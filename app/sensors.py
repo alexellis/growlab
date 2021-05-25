@@ -4,6 +4,7 @@ except ImportError:
     from smbus import SMBus
 from bme280 import BME280
 from bmp280 import BMP280
+import bme680
 
 import time
 
@@ -61,4 +62,29 @@ class growbmp280:
             "time": time_str,
             "temperature": temperature,
             "pressure": pressure,
+        }
+
+class growbme680:
+    def __init__(self, oversample=True):
+        self.sensor = bme680.BME680(bme680.I2C_ADDR_PRIMARY)
+        self.oversample = oversample
+
+    def get_readings(self):
+        if self.oversample:
+            print("Oversampling")
+            self.sensor.set_humidity_oversample(bme680.OS_2X)
+            self.sensor.set_pressure_oversample(bme680.OS_4X)
+            self.sensor.set_temperature_oversample(bme680.OS_8X)
+            self.sensor.set_filter(bme680.FILTER_SIZE_3)
+
+        temperature = self.sensor.data.temperature
+        pressure = self.sensor.data.pressure
+        humidity = self.sensor.data.humidity
+        time_str = time.strftime("%H:%M:%S")
+
+        return {
+            "time": time_str,
+            "temperature": temperature,
+            "pressure": pressure,
+            "humidity": humidity
         }

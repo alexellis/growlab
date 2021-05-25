@@ -1,6 +1,7 @@
 smbus
 pimoroni-bme280
 bmp280
+bme680
 picamera
 pillow
 Jinja2
