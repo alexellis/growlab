@@ -112,6 +112,12 @@ See the new [growlab app](/app) for your Raspberry Pi
 
 Some cameras like the HQ camera are variable focus, the cheaper lenses can also have their glue broken to enable them to close focus.
 
+Low latency with built-in web-browser:
+
+["Raspberry Pi High Quality Camera setup for low-latency Video Conferencing"](http://www.davidhunt.ie/raspberry-pi-high-quality-camera-setup-for-low-latency-video-conferencing/)
+
+Quick and functional:
+
 ```bash
 # On your Raspberry Pi
 raspivid -t 0 -w 1280 -h 720 -fps 10 -o - | nc -lkv4 8080
