@@ -102,12 +102,24 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Kyle Brennan        | | | | |
 | Carlos Panato       | | | | |
 
-
 ## Official growlab app
 
 * [phototimer - Record images for the timelapse contest](https://github.com/alexellis/phototimer)
 * [app - Generate and upload a live-preview with sensor data growlab app](/app)
 * [data-logger - Capture environment data and plot on a Grafana dashboard](/data-logger)
+
+### Focusing your camera
+
+Some cameras like the HQ camera are variable focus, the cheaper lenses can also have their glue broken to enable them to close focus.
+
+```bash
+# On your Raspberry Pi
+raspivid -t 0 -w 1280 -h 720 -fps 10 -o - | nc -lkv4 8080
+
+# On your computer, enter this URL into VLC under "Network Stream"
+# Replace with your Raspberry Pi's IP
+tcp/h264://192.168.0.53:8080
+```
 
 ### Making your timelapse
 
