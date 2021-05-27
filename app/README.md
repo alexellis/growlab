@@ -115,8 +115,19 @@ Capture a test photo and HTML page. You'll see the files generated in the `html`
 python3 app.py
 ```
 
-* If you have no sensors, then run `SENSOR_TYPE=none`
-* If you have the BMP280, then prefix `SENSOR_TYPE=bmp280`
+If you have no sensors, then run:
+
+```bash
+export SENSOR_TYPE=none
+python3 app.py
+```
+
+If you have the BMP280, then run this instead:
+
+```bash
+export SENSOR_TYPE=bmp280
+python3 app.py
+```
 
 ### Serve a preview with GitHub pages
 
