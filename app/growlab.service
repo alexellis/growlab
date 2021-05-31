@@ -3,13 +3,15 @@ Description=Growlab
 After=network.target
 
 [Service]
+User=pi
+Group=pi
 Type=simple
 Restart=always
-RestartSec=1
+RestartSec=600
 StartLimitInterval=0
 Environment="SENSOR_TYPE=none"
 WorkingDirectory=/home/pi/growlab/app
-ExecStart=/home/pi/growlab/app/app.py
+ExecStart=/home/pi/growlab/app/sample.sh
 
 [Install]
 WantedBy=multi-user.target
