@@ -66,7 +66,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 17 | Allan Pead | [@adpead](https://twitter.com/adpead) | [apead](https://github.com/apead) | |
 | 18 | Keith Hubner | [@keithhubner](https://twitter.com/keithhubner) | [keithhubner](https://github.com/keithhubner) | [Live preview](https://growlab.hubner.co.uk/) |
 | 19 | Antoine Mouchere | [@mouchere_a](https://twitter.com/mouchere_a) | [amouchere](https://github.com/amouchere/growlab-project#readme) | [Live preview](https://amouchere.github.io/growlab-preview/) |
-| 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| |
+| 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| [Live Preview](https://kylos101.github.io/growlab/docs/) |
 | 21 | Ben Hughes | [@bwghghs](https://twitter.com/bwghghs) | [bwghughes](https://github.com/bwghughes)| [Live Preview](https://bwghughes.github.io/growlab/app/docs/) |
 | 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview](https://cpanato.dev/growlab-live/) |
 
