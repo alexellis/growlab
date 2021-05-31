@@ -5,7 +5,7 @@ export GIT_SSH_COMMAND="ssh -i `pwd`/.ssh/id_rsa"
 
 cp ${HOME}/growlab/app/html/* ${HOME}/growlab/docs/
 
-git add .
+git add ../docs/
 
 git commit -s -m "Update images at `date`"
 git pull origin master --rebase
