@@ -15,6 +15,8 @@ See also: [app roadmap](https://github.com/alexellis/growlab/issues/15)
 * You'll need a Raspberry Pi Zero W or any other Raspberry Pi.
 * An RPi camera connected - any version
 * A Bosch BME280 or BMP280 sensor connected to GND, VCC SDL and SCL.
+* New to GPIO or i2c? Checkout the [onboarding guide](onboarding.md).
+* What materials are technicians using? Refer to the [sample materials](materials.md).
 
 ![How to connect the sensor over i2c](sensor-i2c.png)
 > How to connect the sensor over i2c
@@ -26,6 +28,11 @@ Using `raspi-config`
 * Set your hostname such as `growpi`
 * Enable i2c under interfacing options
 * Change the password for the `pi` user
+
+### Consider updating your RPi
+
+* Update software: `sudo apt update && sudo apt upgrade -y`
+* Optionally, if having trouble with your RPi, try a firmware update: `sudo rpi-update`
 
 ### Getting started with the software
 
@@ -57,6 +64,7 @@ Get the roboto font:
 ```bash
 curl -sSL https://github.com/googlefonts/roboto/releases/download/v2.138/roboto-unhinted.zip -o roboto.zip
 unzip roboto.zip -d roboto
+rm roboto.zip
 ```
 
 Install Python modules with `pip3`:
@@ -72,13 +80,16 @@ Capture a test image to determine if you need a horizontal or vertical flip or n
 raspistill -o growlab.jpg
 
 # From your PC:
-scp pi@growlab.local:~/growlab.jpg Desktop/
+scp pi@growpi.local:~/growlab/app/growlab.jpg Desktop/
 
 # On a Mac:
 open Desktop/growlab.jpg
 
 # On a Linux desktop:
 xdg-open Desktop/growlab.jpg
+
+# On a Windows desktop:
+start %USERPROFILE%/Desktop/growlab.jpg
 ```
 
 If needed, test again with `-vf` or `-hf` to flip the image.
@@ -112,6 +123,7 @@ Edit the `config.json` file if needed and update the flip settings, and width an
 Capture a test photo and HTML page. You'll see the files generated in the `html` folder as `image.jpg` and `index.html`.
 
 ```bash
+# the default SENSOR_TYPE is bme280
 python3 app.py
 ```
 
@@ -163,7 +175,8 @@ Go to the repo settings and add the deploy key and check *Allow write access*
 Now run the sample.sh bash script. Feel free to view its contents to see how it works
 
 ```bash
-mkdir -p docs
+# a folder for storing live preview content
+mkdir -vp growlab/docs
 cd growlab/app
 
 ./sample.sh
@@ -187,4 +200,19 @@ chmod +x app.py
 sudo cp growlab.service /etc/systemd/system
 sudo systemctl enable growlab
 sudo systemctl start growlab
+```
+
+Check the status:
+
+```bash
+sudo systemctl status growlab
+journalctl | grep growlab
+```
+
+To remove the service:
+
+```bash
+sudo systemctl stop growlab
+sudo systemctl disable growlab
+sudo systemctl status growlab
 ```
