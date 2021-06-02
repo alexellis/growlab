@@ -115,8 +115,19 @@ Capture a test photo and HTML page. You'll see the files generated in the `html`
 python3 app.py
 ```
 
-* If you have no sensors, then run `SENSOR_TYPE=none`
-* If you have the BMP280, then prefix `SENSOR_TYPE=bmp280`
+If you have no sensors, then run:
+
+```bash
+export SENSOR_TYPE=none
+python3 app.py
+```
+
+If you have the BMP280, then run this instead:
+
+```bash
+export SENSOR_TYPE=bmp280
+python3 app.py
+```
 
 ### Serve a preview with GitHub pages
 
@@ -140,11 +151,19 @@ git remote rm origin
 git remote add origin git@github.com:alexellis/growlab.git
 ```
 
+Configure your git user/email:
+
+```
+git config --global user.name 'YOUR_USERNAME'
+git config --global user.email 'YOUR_EMAIL'
+```
+
 Go to the repo settings and add the deploy key and check *Allow write access*
 
 Now run the sample.sh bash script. Feel free to view its contents to see how it works
 
 ```bash
+mkdir -p docs
 cd growlab/app
 
 ./sample.sh
@@ -153,15 +172,18 @@ cd growlab/app
 You can also put this into a loop to run every 10 minutes:
 
 ```bash
-while [ true ] ; do ./sample.sh && echo "waiting 10 minutes" && sleep 600 ; done 
+while [ true ] ; do ./sample.sh && echo "waiting 10 minutes" && sleep 600 ; done
 ```
 
 ### Install growlab as a service
 
+In the `growlab.service` file change the line where says `Environment="SENSOR_TYPE=none"` if you are using a sensor
+then change for the sensor you have, ie. if you have BMP280 change for `Environment="SENSOR_TYPE=bmp280"`
+
 Install the systemd service:
 
 ```bash
-touch /etc/default/growlab
+chmod +x app.py
 sudo cp growlab.service /etc/systemd/system
 sudo systemctl enable growlab
 sudo systemctl start growlab

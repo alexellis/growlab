@@ -68,8 +68,8 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 19 | Antoine Mouchere | [@mouchere_a](https://twitter.com/mouchere_a) | [amouchere](https://github.com/amouchere/growlab-project#readme) | [Live preview](https://amouchere.github.io/growlab-preview/) |
 | 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| |
 | 21 | Ben Hughes | [@bwghghs](https://twitter.com/bwghghs) | [bwghughes](https://github.com/bwghughes)| [Live Preview](https://bwghughes.github.io/growlab/app/docs/) |
-| 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview - Soon!]()
-| 23 | Martyn Taylor-Sherwood | [@mtaylorsherwood](https://twitter.com/mtaylorsherwood) | [mtaylorsherwood](https://github.com/mtaylorsherwood)| [Live Preview](https://mtaylorsherwood.github.io/growlab-live/)
+| 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview](https://cpanato.dev/growlab-live/) |
+| 23 | Martyn Taylor-Sherwood | [@mtaylorsherwood](https://twitter.com/mtaylorsherwood) | [mtaylorsherwood](https://github.com/mtaylorsherwood)| [Live Preview](https://mtaylorsherwood.github.io/growlab-live/) |
 
 ### Live preview URLs
 
@@ -94,22 +94,40 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Martin Woodward     | [Bronze](https://twitter.com/martinwoodward/status/1388813602828730369) | [Silver](https://twitter.com/martinwoodward/status/1388887836196098049)| [Gold](https://twitter.com/martinwoodward/status/1392376722612445184) | |
 | Jérôme Velociter    | [Bronze](https://twitter.com/jvelo/status/1393892964305448961) | | | |
 |  Philippe Ensarguet | [Bronze](https://twitter.com/P_Ensarguet/status/1391382014557933569) |[Silver](https://twitter.com/P_Ensarguet/status/1395743166507139072) |  | |
-|  Sander Vanhove     | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624) | | | |
+|  Sander Vanhove     | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624) | [Silver](https://twitter.com/SanderWaylay/status/1397853230315540482) | | |
 |  Sergei Vasilev     | | | | |
 |  IbooNox            | [Bronze](https://twitter.com/iboonox/status/1393532825031397377) | [Silver](https://twitter.com/iboonox/status/1393532908166602753)| [Gold](https://twitter.com/iboonox/status/1395105689161412614) | |
 | Allan Pead          | [Bronze](https://twitter.com/adpead/status/1393984772381229059) | [Silver](https://twitter.com/adpead/status/1394906481515024385) | | |
 | Keith Hubner        | [Bronze](https://twitter.com/keithhubner/status/1393611768660963335) | [Silver](https://twitter.com/keithhubner/status/1394203963352887301) | [Gold](https://twitter.com/keithhubner/status/1394608874636914690) | |
 | Antoine Mouchere    | [Bronze](https://twitter.com/mouchere_a/status/1394303190691106816)  | | | |
 | Kyle Brennan        | | | | |
-| Carlos Panato       | | | | |
+| Carlos Panato       | [Bronze](https://twitter.com/comedordexis/status/1398203436559130624) | [Silver](https://twitter.com/comedordexis/status/1398203436559130624) | | |
 | Martyn Taylor-Sherwood | [Bronze](https://twitter.com/mtaylorsherwood/status/1396778632161505281) | | | |
-
 
 ## Official growlab app
 
 * [phototimer - Record images for the timelapse contest](https://github.com/alexellis/phototimer)
 * [app - Generate and upload a live-preview with sensor data growlab app](/app)
 * [data-logger - Capture environment data and plot on a Grafana dashboard](/data-logger)
+
+### Focusing your camera
+
+Some cameras like the HQ camera are variable focus, the cheaper lenses can also have their glue broken to enable them to close focus.
+
+Low latency with built-in web-browser:
+
+["Raspberry Pi High Quality Camera setup for low-latency Video Conferencing"](http://www.davidhunt.ie/raspberry-pi-high-quality-camera-setup-for-low-latency-video-conferencing/)
+
+Quick and functional:
+
+```bash
+# On your Raspberry Pi
+raspivid -t 0 -w 1280 -h 720 -fps 10 -o - | nc -lkv4 8080
+
+# On your computer, enter this URL into VLC under "Network Stream"
+# Replace with your Raspberry Pi's IP
+tcp/h264://192.168.0.53:8080
+```
 
 ### Making your timelapse
 
