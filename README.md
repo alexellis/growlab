@@ -71,6 +71,8 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| [Live Preview](https://kylos101.github.io/growlab/docs/) |
 | 21 | Ben Hughes | [@bwghghs](https://twitter.com/bwghghs) | [bwghughes](https://github.com/bwghughes)| [Live Preview](https://bwghughes.github.io/growlab/app/docs/) |
 | 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview](https://cpanato.dev/growlab-live/) | Germany |
+| 23 | Plant Holmes | [@plantholmes](https://twitter.com/plantholmes) | [scrimples](https://github.com/scrimples)| | |
+
 
 ### Live preview URLs
 
