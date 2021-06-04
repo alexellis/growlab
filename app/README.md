@@ -52,11 +52,12 @@ git clone https://github.com/alexellis/growlab
 cd growlab/app
 ```
 
-Get the roboto font:
+Get the free Roboto font from Google's download page:
 
 ```bash
-curl -sSL https://github.com/googlefonts/roboto/releases/download/v2.138/roboto-unhinted.zip -o roboto.zip
-unzip roboto.zip -d roboto
+curl -sSL https://github.com/googlefonts/roboto/releases/download/v2.138/roboto-unhinted.zip -o roboto.zip \
+  && unzip roboto.zip -d roboto \
+  && rm roboto.zip
 ```
 
 Install Python modules with `pip3`:
