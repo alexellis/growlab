@@ -27,6 +27,8 @@ My early growlab
 5) Send a Pull Request and link to each Tweet to unlock each level.
 6) At the conclusion of the growing period, we'll send some prizes from OpenFaaS Ltd and Pimoroni to entries at random for different tiers.
 
+> Note: Growlab 2021 concludes Sunday 3rd October to mark Harvest Festival in the United Kingdom.
+
 Prizes to be provided by: [OpenFaaS Ltd](https://openfaas.com) and [Pimoroni](https://www.pimoroni.com). Want to sponsor or provide prizes? Send an email to [alex@openfaas.com](mailto:alex@openfaas.com)
 
 ### Unlock each level

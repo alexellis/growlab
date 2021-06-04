@@ -4,12 +4,19 @@ After=network.target
 
 [Service]
 Type=simple
+User=pi
+Group=pi
 Restart=always
-RestartSec=1
+
+# Every 600 seconds (or 10 minutes)
+RestartSec=600
+
 StartLimitInterval=0
-Environment="SENSOR_TYPE=none"
+
+# Sensor type: "none", "BME280" or "BMP280"
+Environment="SENSOR_TYPE=BME280"
 WorkingDirectory=/home/pi/growlab/app
-ExecStart=/home/pi/growlab/app/app.py
+ExecStart=/home/pi/growlab/app/sample.sh
 
 [Install]
 WantedBy=multi-user.target
