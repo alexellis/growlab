@@ -72,6 +72,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 21 | Ben Hughes | [@bwghghs](https://twitter.com/bwghghs) | [bwghughes](https://github.com/bwghughes)| [Live Preview](https://bwghughes.github.io/growlab/app/docs/) |
 | 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview](https://cpanato.dev/growlab-live/) | Germany |
 | 23 | Plant Holmes | [@plantholmes](https://twitter.com/plantholmes) | [scrimples](https://github.com/scrimples)| | |
+| 24 | Marian Horgan | [@always_marian](https://twitter.com/always_marian) | [Quarkiness](https://github.com/Quarkiness)| | Ireland |
 
 
 ### Live preview URLs
