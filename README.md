@@ -63,7 +63,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 12 | Jérôme Velociter | [@jvelo](https://twitter.com/jvelo) | [jvelo](https://github.com/jvelo) |  | France |
 | 13 | Philippe Ensarguet | [@p_ensarguet](https://twitter.com/P_Ensarguet) | [pensarguet](https://github.com/pensarguet) | [Live preview](https://pensarguet.github.io/growlab-livepreview/) | France |
 | 14 | Sander Vanhove | [@SanderWaylay](https://twitter.com/SanderWaylay) | [SanderVanhove](https://github.com/SanderVanhove) | [Live preview](https://www.sandervanhove.com/plant-monitor) |
-| 15 | Sergei Vasilev | [@nblpblc](https://twitter.com/nblpblc) | [sergevas](https://github.com/sergevas) | |
+| 15 | Sergei Vasilev | [@nblpblc](https://twitter.com/nblpblc) | [sergevas](https://github.com/sergevas) | [Live preview](https://growlab.sergevas.dev) |
 | 16 | IbooNox | [@iboonox](https://twitter.com/iboonox) | [iboonox](https://github.com/iboonox) | |
 | 17 | Allan Pead | [@adpead](https://twitter.com/adpead) | [apead](https://github.com/apead) | |
 | 18 | Keith Hubner | [@keithhubner](https://twitter.com/keithhubner) | [keithhubner](https://github.com/keithhubner) | [Live preview](https://growlab.hubner.co.uk/) |
@@ -71,7 +71,10 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 20 | Kyle Brennan | [@kylos101](https://twitter.com/kylos101/) | [kylos101](https://github.com/kylos101)| [Live Preview](https://kylos101.github.io/growlab/docs/) |
 | 21 | Ben Hughes | [@bwghghs](https://twitter.com/bwghghs) | [bwghughes](https://github.com/bwghughes)| [Live Preview](https://bwghughes.github.io/growlab/app/docs/) |
 | 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview](https://cpanato.dev/growlab-live/) | Germany |
-| 23 | Tyeth Gundry | [@tyeth](https://twitter.com/tyeth) | [tyeth](https://github.com/tyeth)| [:Lupins in greenhouse:](https://github.com/tyeth/growlab-pics-greenhouse)  [:(Rocket 2nd attempt):](https://github.com/tyeth/growlab-pics-windowsill-back)  [using RPi+NodeRED](https://discourse.nodered.org/t/bug-report-old-version-so-maybe-fixed-rpi3b/46671)  | UK |
+| 23 | Plant Holmes | [@plantholmes](https://twitter.com/plantholmes) | [scrimples](https://github.com/scrimples)| | |
+| 24 | Marian Horgan | [@always_marian](https://twitter.com/always_marian) | [Quarkiness](https://github.com/Quarkiness)| | Ireland |
+| 25 | Tyeth Gundry | [@tyeth](https://twitter.com/tyeth) | [tyeth](https://github.com/tyeth)| [:Lupins in greenhouse:](https://github.com/tyeth/growlab-pics-greenhouse)  [:(Rocket 2nd attempt):](https://github.com/tyeth/growlab-pics-windowsill-back)  [using RPi+NodeRED](https://discourse.nodered.org/t/bug-report-old-version-so-maybe-fixed-rpi3b/46671)  | UK |
+
 
 ### Live preview URLs
 
@@ -96,7 +99,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Martin Woodward     | [Bronze](https://twitter.com/martinwoodward/status/1388813602828730369) | [Silver](https://twitter.com/martinwoodward/status/1388887836196098049)| [Gold](https://twitter.com/martinwoodward/status/1392376722612445184) | |
 | Jérôme Velociter    | [Bronze](https://twitter.com/jvelo/status/1393892964305448961) | | | |
 |  Philippe Ensarguet | [Bronze](https://twitter.com/P_Ensarguet/status/1391382014557933569) |[Silver](https://twitter.com/P_Ensarguet/status/1395743166507139072) |  | |
-|  Sander Vanhove     | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624) | [Silver](https://twitter.com/SanderWaylay/status/1397853230315540482) | | |
+|  Sander Vanhove     | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624) | [Silver](https://twitter.com/SanderWaylay/status/1397853230315540482) | [Gold](https://twitter.com/SanderWaylay/status/1400716134094098433) | |
 |  Sergei Vasilev     | | | | |
 |  IbooNox            | [Bronze](https://twitter.com/iboonox/status/1393532825031397377) | [Silver](https://twitter.com/iboonox/status/1393532908166602753)| [Gold](https://twitter.com/iboonox/status/1395105689161412614) | |
 | Allan Pead          | [Bronze](https://twitter.com/adpead/status/1393984772381229059) | [Silver](https://twitter.com/adpead/status/1394906481515024385) | | |
