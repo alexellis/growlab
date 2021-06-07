@@ -73,8 +73,8 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview](https://cpanato.dev/growlab-live/) | Germany |
 | 23 | Plant Holmes | [@plantholmes](https://twitter.com/plantholmes) | [scrimples](https://github.com/scrimples)| | |
 | 24 | Marian Horgan | [@always_marian](https://twitter.com/always_marian) | [Quarkiness](https://github.com/Quarkiness)| | Ireland |
-| 25 | Iván Gómez | [@ivanusatuiter](https://twitter.com/ivanusatuiter) | [igomezal](https://github.com/igomezal)| [Live Preview](https://igomezal.github.io/growlab/) | Spain |
-
+| 25 | Felipe Cruz | [@felipecruz](https://twitter.com/felipecruz) | [felipecruz91](https://github.com/felipecruz91)| [Live preview with the growlab app](https://felipecruz91.github.io/growlab) | Spain |
+| 26 | Iván Gómez | [@ivanusatuiter](https://twitter.com/ivanusatuiter) | [igomezal](https://github.com/igomezal)| [Live Preview](https://igomezal.github.io/growlab/) | Spain |
 
 ### Live preview URLs
 
@@ -107,6 +107,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Antoine Mouchere    | [Bronze](https://twitter.com/mouchere_a/status/1394303190691106816)  | | | |
 | Kyle Brennan        | | | | |
 | Carlos Panato       | [Bronze](https://twitter.com/comedordexis/status/1398203436559130624) | [Silver](https://twitter.com/comedordexis/status/1398203436559130624) | | |
+| Felipe Cruz       | [Bronze](https://twitter.com/felipecruz/status/1401197347586068482) | [Silver](https://twitter.com/felipecruz/status/1401197973929873410) | | |
 
 ## Official growlab app
 
