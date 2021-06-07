@@ -73,6 +73,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview](https://cpanato.dev/growlab-live/) | Germany |
 | 23 | Plant Holmes | [@plantholmes](https://twitter.com/plantholmes) | [scrimples](https://github.com/scrimples)| | |
 | 24 | Marian Horgan | [@always_marian](https://twitter.com/always_marian) | [Quarkiness](https://github.com/Quarkiness)| | Ireland |
+| 25 | Iván Gómez | [@ivanusatuiter](https://twitter.com/ivanusatuiter) | [igomezal](https://github.com/igomezal)| [Live Preview](https://igomezal.github.io/growlab/) | Spain |
 
 
 ### Live preview URLs
