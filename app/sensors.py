@@ -5,6 +5,7 @@ except ImportError:
 from bme280 import BME280
 from bmp280 import BMP280
 
+import Adafruit_DHT
 import time
 
 class grownosensor:
@@ -61,4 +62,19 @@ class growbmp280:
             "time": time_str,
             "temperature": temperature,
             "pressure": pressure,
+        }
+
+class growdht22:
+    def __init__(self):
+        self.DHT_SENSOR = Adafruit_DHT.DHT22
+        self.DHT_PIN = 4
+
+    def get_readings(self):
+        humidity, temperature = Adafruit_DHT.read_retry(self.DHT_SENSOR, self.DHT_PIN)
+        time_str = time.strftime("%H:%M:%S")
+
+        return {
+            "time": time_str,
+            "temperature": temperature,
+            "humidity": humidity
         }
