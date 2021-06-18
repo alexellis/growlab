@@ -108,6 +108,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Kyle Brennan        | | | | |
 | Carlos Panato       | [Bronze](https://twitter.com/comedordexis/status/1398203436559130624) | [Silver](https://twitter.com/comedordexis/status/1398203436559130624) | | |
 | Felipe Cruz       | [Bronze](https://twitter.com/felipecruz/status/1401197347586068482) | [Silver](https://twitter.com/felipecruz/status/1401197973929873410) | | |
+| Marian Horgan       | [Bronze](https://twitter.com/always_marian/status/1402967317907226635) | [Silver](https://twitter.com/always_marian/status/1402967860171915269) | [Gold](https://twitter.com/always_marian/status/1405978590714413057) | |
 
 ## Official growlab app
 
