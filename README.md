@@ -76,7 +76,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 25 | Felipe Cruz | [@felipecruz](https://twitter.com/felipecruz) | [felipecruz91](https://github.com/felipecruz91)| [Live preview with the growlab app](https://felipecruz91.github.io/growlab) | Spain |
 | 26 | Iván Gómez | [@ivanusatuiter](https://twitter.com/ivanusatuiter) | [igomezal](https://github.com/igomezal)| [Live Preview](https://igomezal.github.io/growlab/) | Spain |
 | 27 | Thibault Jochem | [@tryumk](https://twitter.com/tryumk) | [tryum](https://github.com/Tryum) | N/A (yet) | France |
-| 28 | Peter Dongo | [@TheDaN997](https://twitter.com/TheDaN997) | [dpeter79](https://github.com/dpeter79)  | [Live preview with the growlab app](https://dpeter79.github.io/growlab/) | Hungary |
+| 28 | Peter Dongo | [@TheDaN997](https://twitter.com/TheDaN997) | [alexellis](https://github.com/dpeter79)  | [Live preview with the growlab app](https://dpeter79.github.io/growlab/) | Hungary |
 
 ### Live preview URLs
 
