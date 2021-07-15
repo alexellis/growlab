@@ -37,7 +37,7 @@ class specimen:
 
     def format(self, readings):
         degree_symbol=u"\u00b0"
-        msg = "#growlab - {}\n".format(readings["time"])
+        msg = "#growlab - {date} {time}\n".format(date=readings["date"], time=readings["time"])
         if "temperature" in readings:
             msg = msg + " Temperature: {:05.2f}{}C \n".format(readings["temperature"],degree_symbol)
         if "pressure" in readings:
@@ -62,6 +62,7 @@ class specimen:
 
         vals = {}
         vals["time"] = readings["time"]
+        vals["date"] = readings["date"]
         if "temperature" in readings:
             vals["temperature"] = "{:05.2f}{}C".format(readings["temperature"], degree_symbol)
         else:
