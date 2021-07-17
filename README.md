@@ -113,6 +113,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Marian Horgan       | [Bronze](https://twitter.com/always_marian/status/1402967317907226635) | [Silver](https://twitter.com/always_marian/status/1402967860171915269) | [Gold](https://twitter.com/always_marian/status/1405978590714413057) | |
 | Thibault Jochem | [Bronze](https://twitter.com/Tryumk/status/1414234033668730886) | | | |
 | Peter Dongo | [Bronze](https://twitter.com/TheDaN997/status/1415298756757573637) | [Silver](https://twitter.com/TheDaN997/status/1415299162623594499) | | |
+| Iván Gómez | [Bronze](https://twitter.com/ivanusatuiter/status/1401564344656216069) | [Silver](https://twitter.com/ivanusatuiter/status/1416383863606157312) | [Gold](https://twitter.com/ivanusatuiter/status/1416405907752247299) | |
 
 ## Official growlab app
 
