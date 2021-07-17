@@ -73,8 +73,10 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 22 | Carlos Panato | [@comedordexis](https://twitter.com/comedordexis) | [cpanato](https://github.com/cpanato)| [Live Preview](https://cpanato.dev/growlab-live/) | Germany |
 | 23 | Plant Holmes | [@plantholmes](https://twitter.com/plantholmes) | [scrimples](https://github.com/scrimples)| | |
 | 24 | Marian Horgan | [@always_marian](https://twitter.com/always_marian) | [Quarkiness](https://github.com/Quarkiness)| | Ireland |
-| 25 | Iván Gómez | [@ivanusatuiter](https://twitter.com/ivanusatuiter) | [igomezal](https://github.com/igomezal)| [Live Preview](https://igomezal.github.io/growlab/) | Spain |
-
+| 25 | Felipe Cruz | [@felipecruz](https://twitter.com/felipecruz) | [felipecruz91](https://github.com/felipecruz91)| [Live preview with the growlab app](https://felipecruz91.github.io/growlab) | Spain |
+| 26 | Iván Gómez | [@ivanusatuiter](https://twitter.com/ivanusatuiter) | [igomezal](https://github.com/igomezal)| [Live Preview](https://igomezal.github.io/growlab/) | Spain |
+| 27 | Thibault Jochem | [@tryumk](https://twitter.com/tryumk) | [tryum](https://github.com/Tryum) | N/A (yet) | France |
+| 28 | Peter Dongo | [@TheDaN997](https://twitter.com/TheDaN997) | [alexellis](https://github.com/dpeter79)  | [Live preview with the growlab app](https://dpeter79.github.io/growlab/) | Hungary |
 
 ### Live preview URLs
 
@@ -98,7 +100,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Adam Craggs         | [Bronze](https://twitter.com/ABigPancake/status/1387414840914894851) |  |  |  |
 | Martin Woodward     | [Bronze](https://twitter.com/martinwoodward/status/1388813602828730369) | [Silver](https://twitter.com/martinwoodward/status/1388887836196098049)| [Gold](https://twitter.com/martinwoodward/status/1392376722612445184) | |
 | Jérôme Velociter    | [Bronze](https://twitter.com/jvelo/status/1393892964305448961) | | | |
-|  Philippe Ensarguet | [Bronze](https://twitter.com/P_Ensarguet/status/1391382014557933569) |[Silver](https://twitter.com/P_Ensarguet/status/1395743166507139072) |  | |
+|  Philippe Ensarguet | [Bronze](https://twitter.com/P_Ensarguet/status/1391382014557933569) |[Silver](https://twitter.com/P_Ensarguet/status/1395743166507139072) |[Gold](https://twitter.com/P_Ensarguet/status/1401155745157206018)  |[Platinum](https://twitter.com/P_Ensarguet/status/1401151522692534281) |
 |  Sander Vanhove     | [Bronze](https://twitter.com/SanderWaylay/status/1391665619616026624) | [Silver](https://twitter.com/SanderWaylay/status/1397853230315540482) | [Gold](https://twitter.com/SanderWaylay/status/1400716134094098433) | |
 |  Sergei Vasilev     | | | | |
 |  IbooNox            | [Bronze](https://twitter.com/iboonox/status/1393532825031397377) | [Silver](https://twitter.com/iboonox/status/1393532908166602753)| [Gold](https://twitter.com/iboonox/status/1395105689161412614) | |
@@ -107,6 +109,10 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Antoine Mouchere    | [Bronze](https://twitter.com/mouchere_a/status/1394303190691106816)  | | | |
 | Kyle Brennan        | | | | |
 | Carlos Panato       | [Bronze](https://twitter.com/comedordexis/status/1398203436559130624) | [Silver](https://twitter.com/comedordexis/status/1398203436559130624) | | |
+| Felipe Cruz       | [Bronze](https://twitter.com/felipecruz/status/1401197347586068482) | [Silver](https://twitter.com/felipecruz/status/1401197973929873410) | | |
+| Marian Horgan       | [Bronze](https://twitter.com/always_marian/status/1402967317907226635) | [Silver](https://twitter.com/always_marian/status/1402967860171915269) | [Gold](https://twitter.com/always_marian/status/1405978590714413057) | |
+| Thibault Jochem | [Bronze](https://twitter.com/Tryumk/status/1414234033668730886) | | | |
+| Peter Dongo | [Bronze](https://twitter.com/TheDaN997/status/1415298756757573637) | [Silver](https://twitter.com/TheDaN997/status/1415299162623594499) | | |
 
 ## Official growlab app
 
