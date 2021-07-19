@@ -2,6 +2,15 @@
 
 This data logger writes measurements from a Bosch BME280 or BMP280 sensor into a InfluxDB time-series database.
 
+You'll need one Raspberry Pi 3 or 4 to run the data collection stack and dashboard, then as many additional Raspberry Pi Zeros as you like for each location you want to monitor.
+
+## The hardware
+
+![How to connect the sensor over i2c](../app/sensor-i2c.png)
+> How to connect the sensor over i2c
+
+For the hardware, follow the instructions from the [growlab app](../app/) under "Assembling the build". You'll need the same parts, but you can skip the camera module.
+
 ## Deployment
 
 You will run faasd on your Raspberry Pi 2, 3 or 4 to store data readings and to run OpenFaaS and Grafana.
@@ -130,3 +139,6 @@ Once you have it up and running, create a datasource, then import the dashboard.
 ![A very cold shed](https://pbs.twimg.com/media/E0H6WhfXIAAMOR3?format=jpg&name=medium)
 > My very cold shed - measured overnight!
 
+A larger version in the summer time:
+
+![Getting very warm in my shed](https://pbs.twimg.com/media/E6feyrJWYAMc4l2?format=jpg&name=large)
