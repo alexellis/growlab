@@ -16,7 +16,7 @@ My early growlab
 ## Videos
 
 * [Overview - Growing your own with the Raspberry Pi with Alex Ellis at GIFEE Day](https://www.youtube.com/watch?v=GE7kyi6kFJY)
-* [Live stream "Grow your own with Raspberry Pi" - Alex Ellis & Richard Gee](https://www.youtube.com/watch?v=Ta_LBKpI5-0)
+* [Live stream "Grow your own food with Raspberry Pi" - Alex Ellis & Richard Gee](https://www.youtube.com/watch?v=Ta_LBKpI5-0)
 
 ## How it works
 
