@@ -78,7 +78,8 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 26 | Iván Gómez | [@ivanusatuiter](https://twitter.com/ivanusatuiter) | [igomezal](https://github.com/igomezal)| [Live Preview](https://igomezal.github.io/growlab/) | Spain |
 | 27 | Thibault Jochem | [@tryumk](https://twitter.com/tryumk) | [tryum](https://github.com/Tryum) | N/A (yet) | France |
 | 28 | Peter Dongo | [@TheDaN997](https://twitter.com/TheDaN997) | [dpeter79](https://github.com/dpeter79)  | [Live preview with the growlab app](https://dpeter79.github.io/growlab/) | Hungary |
-| 29 | Beril Kurt| [@berlonics](https://twitter.com/berlonics) | [berlonics](https://github.com/berlonics)  | | Germany |
+| 29 | Dalton Cole | [@LessTechnology](https://twitter.com/LessTechnology) | [dalton-cole](https://github.com/dalton-cole)  | [Live preview](https://raspberry.farm) | United States |
+| 30 | Beril Kurt| [@berlonics](https://twitter.com/berlonics) | [berlonics](https://github.com/berlonics)  | | Germany |
 
 ### Live preview URLs
 
@@ -116,6 +117,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Thibault Jochem | [Bronze](https://twitter.com/Tryumk/status/1414234033668730886) | | | |
 | Peter Dongo | [Bronze](https://twitter.com/TheDaN997/status/1415298756757573637) | [Silver](https://twitter.com/TheDaN997/status/1415299162623594499) | | |
 | Iván Gómez | [Bronze](https://twitter.com/ivanusatuiter/status/1401564344656216069) | [Silver](https://twitter.com/ivanusatuiter/status/1416383863606157312) | [Gold](https://twitter.com/ivanusatuiter/status/1416405907752247299) | |
+| Dalton Cole | [Bronze](https://twitter.com/LessTechnology/status/1421238078241484801) | [Silver](https://twitter.com/LessTechnology/status/1421241626354192395) | | |
 
 ## Official growlab apps
 
