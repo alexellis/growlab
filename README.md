@@ -79,6 +79,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 27 | Thibault Jochem | [@tryumk](https://twitter.com/tryumk) | [tryum](https://github.com/Tryum) | N/A (yet) | France |
 | 28 | Peter Dongo | [@TheDaN997](https://twitter.com/TheDaN997) | [dpeter79](https://github.com/dpeter79)  | [Live preview with the growlab app](https://dpeter79.github.io/growlab/) | Hungary |
 | 29 | Dalton Cole | [@LessTechnology](https://twitter.com/LessTechnology) | [dalton-cole](https://github.com/dalton-cole)  | [Live preview](https://raspberry.farm) | United States |
+| 30 | Beril Kurt| [@berlonics](https://twitter.com/berlonics) | [berlonics](https://github.com/berlonics)  | | Germany |
 
 ### Live preview URLs
 
