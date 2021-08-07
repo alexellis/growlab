@@ -16,16 +16,17 @@ My early growlab
 ## Videos
 
 * [Overview - Growing your own with the Raspberry Pi with Alex Ellis at GIFEE Day](https://www.youtube.com/watch?v=GE7kyi6kFJY)
-* [Live stream "Grow your own with Raspberry Pi" - Alex Ellis & Richard Gee](https://www.youtube.com/watch?v=Ta_LBKpI5-0)
+* [Live stream "Grow your own food with Raspberry Pi" - Alex Ellis & Richard Gee](https://www.youtube.com/watch?v=Ta_LBKpI5-0)
 
 ## How it works
 
 1) Read the launch blog post: [Join the Grow Lab Challenge](https://blog.alexellis.io/the-grow-lab-challenge/).
-2) Order your kit, or decide you're taking part by sending a PR and adding yourself to the "growlab Technicians" section below.
-3) Build your own `#growlab` using one of the designs, or customise it. And start growing and recording a timelapse.
-4) Use the [#growlab hashtag](https://twitter.com/search?q=%23growlab&src=typed_query) and share as many pictures as you like.
-5) Send a Pull Request and link to each Tweet to unlock each level.
-6) At the conclusion of the growing period, we'll send some prizes from OpenFaaS Ltd and Pimoroni to entries at random for different tiers.
+3) Decide you're taking part by sending a PR and adding yourself to the "growlab Technicians" section below.
+2) Find or buy the required components for the experiments you want to take part in (read all of this file to learn more)
+4) Build your own `#growlab` using one of the designs, or customise it. And start growing and recording a timelapse.
+5) Use the [#growlab hashtag](https://twitter.com/search?q=%23growlab&src=typed_query) and share as many pictures as you like.
+6) Send a Pull Request and link to each Tweet to unlock each level.
+7) At the conclusion of the growing period, we'll send some prizes from OpenFaaS Ltd and Pimoroni to entries at random for different tiers.
 
 > Note: Growlab 2021 concludes Sunday 3rd October to mark Harvest Festival in the United Kingdom.
 
@@ -76,7 +77,9 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 25 | Felipe Cruz | [@felipecruz](https://twitter.com/felipecruz) | [felipecruz91](https://github.com/felipecruz91)| [Live preview with the growlab app](https://felipecruz91.github.io/growlab) | Spain |
 | 26 | Iván Gómez | [@ivanusatuiter](https://twitter.com/ivanusatuiter) | [igomezal](https://github.com/igomezal)| [Live Preview](https://igomezal.github.io/growlab/) | Spain |
 | 27 | Thibault Jochem | [@tryumk](https://twitter.com/tryumk) | [tryum](https://github.com/Tryum) | N/A (yet) | France |
-| 28 | Peter Dongo | [@TheDaN997](https://twitter.com/TheDaN997) | [alexellis](https://github.com/dpeter79)  | [Live preview with the growlab app](https://dpeter79.github.io/growlab/) | Hungary |
+| 28 | Peter Dongo | [@TheDaN997](https://twitter.com/TheDaN997) | [dpeter79](https://github.com/dpeter79)  | [Live preview with the growlab app](https://dpeter79.github.io/growlab/) | Hungary |
+| 29 | Dalton Cole | [@LessTechnology](https://twitter.com/LessTechnology) | [dalton-cole](https://github.com/dalton-cole)  | [Live preview](https://raspberry.farm) | United States |
+| 30 | Beril Kurt| [@berlonics](https://twitter.com/berlonics) | [berlonics](https://github.com/berlonics)  | | Germany |
 
 ### Live preview URLs
 
@@ -114,12 +117,25 @@ See the new [growlab app](/app) for your Raspberry Pi
 | Thibault Jochem | [Bronze](https://twitter.com/Tryumk/status/1414234033668730886) | | | |
 | Peter Dongo | [Bronze](https://twitter.com/TheDaN997/status/1415298756757573637) | [Silver](https://twitter.com/TheDaN997/status/1415299162623594499) | | |
 | Iván Gómez | [Bronze](https://twitter.com/ivanusatuiter/status/1401564344656216069) | [Silver](https://twitter.com/ivanusatuiter/status/1416383863606157312) | [Gold](https://twitter.com/ivanusatuiter/status/1416405907752247299) | |
+| Dalton Cole | [Bronze](https://twitter.com/LessTechnology/status/1421238078241484801) | [Silver](https://twitter.com/LessTechnology/status/1421241626354192395) | | |
 
-## Official growlab app
+## Official growlab apps
 
-* [phototimer - Record images for the timelapse contest](https://github.com/alexellis/phototimer)
-* [app - Generate and upload a live-preview with sensor data growlab app](/app)
-* [data-logger - Capture environment data and plot on a Grafana dashboard](/data-logger)
+We have three experiments that you can take part in:
+
+1) [phototimer - Record images for the timelapse contest](https://github.com/alexellis/phototimer)
+
+    You'll need a Raspberry Pi Zero or greater with a camera module. This is required for the contest.
+
+2) [live preview app - Generate and upload a live-preview with sensor data growlab app](/app)
+
+    You'll need a Raspberry Pi Zero or greater with a camera module. If you have a BME280 sensor or BMP280 sensor, then you can add sensor data to the live preview image. This is optional for the contest, but recommended so that you can share with the community.
+
+3) [data-logger - Capture environment data and plot on a Grafana dashboard](/data-logger)
+
+    You'll need an RPi 3 or 4 to run the time series database, and dashboard. Then you can attach a sensor to this unit directly, or have a number of other Raspberry Pi Zeros or greater with the BME280 sensor or BMP280 sensor.
+
+    The data-logger does not require you to grow any plants, you can even use it to monitor your home and garden temperatures during the year. This experiment is optional.
 
 ### Focusing your camera
 
@@ -175,3 +191,4 @@ Here's a sample from 9th-22nd April you can watch on YouTube:
 * Richard Gee's seeds2 repo for tweeting and capturing images: [rgee0/seeds2](https://github.com/rgee0/seeds2)
 * Sam Perrin's seed-viewer for viewing the images captured with phototimer [sam-perrin/seed-viewer](https://github.com/sam-perrin/seed-viewer)
 * Sander Vanhove's plant-monitor using Waylay: [SanderVanhove/plant-monitor](https://github.com/SanderVanhove/plant-monitor)
+* Felipe Cruz's repo for displaying sensor readings in an OLED i2c screen: [felipecruz91/growlab-oled](https://github.com/felipecruz91/growlab-oled)
