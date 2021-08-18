@@ -39,11 +39,11 @@ class specimen:
         degree_symbol=u"\u00b0"
         msg = "#growlab - {}\n".format(readings["time"])
         if "temperature" in readings:
-            msg = msg + " Temperature: {:05.2f}{}C \n".format(readings["temperature"],degree_symbol)
+            msg = msg + " Temperature: {}{}C \n".format(readings["temperature"],degree_symbol)
         if "pressure" in readings:
-            msg = msg + " Pressure: {:05.2f}hPa \n".format(readings["pressure"])
+            msg = msg + " Pressure: {}hPa \n".format(readings["pressure"])
         if "humidity" in readings:
-            msg = msg + " Humidity: {:05.2f}% \n".format(readings["humidity"])
+            msg = msg + " Humidity: {}% \n".format(readings["humidity"])
 
         return msg.rstrip() + " "
 
@@ -63,17 +63,17 @@ class specimen:
         vals = {}
         vals["time"] = readings["time"]
         if "temperature" in readings:
-            vals["temperature"] = "{:05.2f}{}C".format(readings["temperature"], degree_symbol)
+            vals["temperature"] = "{}{}C".format(readings["temperature"], degree_symbol)
         else:
             vals["temperature"] = "N/A"
 
         if "humidity" in readings:
-            vals["humidity"] = "{:05.2f}%".format(readings["humidity"])
+            vals["humidity"] = "{}%".format(readings["humidity"])
         else:
             vals["humidity"] = "N/A"
 
         if "pressure" in readings:
-            vals["pressure"] = "{:05.2f}hPa".format(readings["pressure"])
+            vals["pressure"] = "{}hPa".format(readings["pressure"])
         else:
             vals["pressure"] = "N/A"
 

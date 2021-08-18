@@ -6,6 +6,8 @@ from bme280 import BME280
 from bmp280 import BMP280
 
 import time
+import serial
+import json
 
 class grownosensor:
     def __init__(self):
@@ -61,4 +63,23 @@ class growbmp280:
             "time": time_str,
             "temperature": temperature,
             "pressure": pressure,
+        }
+
+class growarduino:
+    def __init__(self):
+        self.uart = serial.Serial('/dev/ttyACM0') # make config
+    
+    def get_readings(self):
+        # Ignore first result since it seems stale
+        _tmp = self.uart.readline()
+        time.sleep(0.1)
+        _tmp = self.uart.readline()
+        sense = json.loads(_tmp.decode('utf-8'))
+        sense['time'] = time.strftime("%H:%M:%S")
+
+        return {
+            "time": sense['time'],
+            "temperature": sense['temperature'],
+            "pressure": sense['pressure'],
+            "humidity": sense['humidity']
         }
