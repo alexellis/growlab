@@ -1,3 +1,4 @@
+pyserial
 smbus
 pimoroni-bme280
 bmp280

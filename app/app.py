@@ -25,6 +25,8 @@ if __name__ == "__main__":
         sensor = growbme280()
     if sensor_type == "bmp280":
         sensor = growbmp280()
+    if sensor_type == "arduino"
+        sensor = growarduino()
     elif sensor_type == "none":
         sensor = grownosensor()
 
