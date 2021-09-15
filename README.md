@@ -109,7 +109,7 @@ See the new [growlab app](/app) for your Raspberry Pi
 |  IbooNox            | [Bronze](https://twitter.com/iboonox/status/1393532825031397377) | [Silver](https://twitter.com/iboonox/status/1393532908166602753)| [Gold](https://twitter.com/iboonox/status/1395105689161412614) | |
 | Allan Pead          | [Bronze](https://twitter.com/adpead/status/1393984772381229059) | [Silver](https://twitter.com/adpead/status/1394906481515024385) | | |
 | Keith Hubner        | [Bronze](https://twitter.com/keithhubner/status/1393611768660963335) | [Silver](https://twitter.com/keithhubner/status/1394203963352887301) | [Gold](https://twitter.com/keithhubner/status/1394608874636914690) | |
-| Antoine Mouchere    | [Bronze](https://twitter.com/mouchere_a/status/1394303190691106816)  | | | |
+| Antoine Mouchere    | [Bronze](https://twitter.com/mouchere_a/status/1428079585757995015)  | [Silver](https://twitter.com/mouchere_a/status/1437878692882100233) | [Gold](https://twitter.com/mouchere_a/status/1437878700763230213)|[Platinium](https://www.youtube.com/watch?v=0tuGF8XQPz4) |
 | Kyle Brennan        | | | | |
 | Carlos Panato       | [Bronze](https://twitter.com/comedordexis/status/1398203436559130624) | [Silver](https://twitter.com/comedordexis/status/1398203436559130624) | | |
 | Felipe Cruz       | [Bronze](https://twitter.com/felipecruz/status/1401197347586068482) | [Silver](https://twitter.com/felipecruz/status/1401197973929873410) | | |
