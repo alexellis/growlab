@@ -65,7 +65,7 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 13 | Philippe Ensarguet | [@p_ensarguet](https://twitter.com/P_Ensarguet) | [pensarguet](https://github.com/pensarguet) | [Live preview](https://pensarguet.github.io/growlab-livepreview/) | France |
 | 14 | Sander Vanhove | [@SanderWaylay](https://twitter.com/SanderWaylay) | [SanderVanhove](https://github.com/SanderVanhove) | [Live preview](https://www.sandervanhove.com/plant-monitor) |
 | 15 | Sergei Vasilev | [@nblpblc](https://twitter.com/nblpblc) | [sergevas](https://github.com/sergevas) | [Live preview](https://growlab.sergevas.dev) |
-| 16 | IbooNox | [@iboonox](https://twitter.com/iboonox) | [iboonox](https://github.com/iboonox) | |
+| 16 | Iheb | [@iboonox](https://twitter.com/iboonox) | [iboonox](https://github.com/iboonox) | [Live preview](https://iheb.io) | France |
 | 17 | Allan Pead | [@adpead](https://twitter.com/adpead) | [apead](https://github.com/apead) | |
 | 18 | Keith Hubner | [@keithhubner](https://twitter.com/keithhubner) | [keithhubner](https://github.com/keithhubner) | [Live preview](https://growlab.hubner.co.uk/) |
 | 19 | Antoine Mouchere | [@mouchere_a](https://twitter.com/mouchere_a) | [amouchere](https://github.com/amouchere/growlab-project#readme) | [Live preview](https://amouchere.github.io/growlab-preview/) |
