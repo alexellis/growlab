@@ -1,5 +1,9 @@
 <img src="https://growlab.dev/images/logo-green.svg" alt="Official logo" width="40%">
 
+## News!
+
+If you particpated in Growlab 2021, you can [register for our prize draw here](https://forms.gle/ekZuGnuWDfwpaEGd6)
+
 ## A global contest to grow seeds and share your progress with the Raspberry Pi
 
 My early growlab
