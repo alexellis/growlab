@@ -19,6 +19,11 @@ See also: [app roadmap](https://github.com/alexellis/growlab/issues/15)
 ![How to connect the sensor over i2c](sensor-i2c.png)
 > How to connect the sensor over i2c
 
+For the DHT22 sensor, 
+* pin 1 of the sensor is connected to a 5V pin of the PI
+* pin 2 of the sensor is connected to a ground pin of the PI
+* pin 3 of the sensor is connected to the pin 7 (GPIO 4)
+
 ### Configuring the RPi
 
 Using `raspi-config`
@@ -127,6 +132,13 @@ If you have the BMP280, then run this instead:
 
 ```bash
 export SENSOR_TYPE=bmp280
+python3 app.py
+```
+
+If you have the DHT22, then run this instead:
+
+```bash
+export SENSOR_TYPE=DHT22
 python3 app.py
 ```
 

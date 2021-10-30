@@ -4,3 +4,4 @@ bmp280
 picamera
 pillow
 Jinja2
+Adafruit_DHT
