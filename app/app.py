@@ -22,11 +22,11 @@ if __name__ == "__main__":
     sensor = None
     sensor_type = os.getenv("SENSOR_TYPE", "bme280")
     if sensor_type == "bme280":
-        sensor = growbme280()
+        sensor = growbme280(config["date"]["format"])
     if sensor_type == "bmp280":
-        sensor = growbmp280()
+        sensor = growbmp280(config["date"]["format"])
     elif sensor_type == "none":
-        sensor = grownosensor()
+        sensor = grownosensor(config["date"]["format"])
 
     readings = sensor.get_readings()
     print(readings)
