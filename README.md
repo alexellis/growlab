@@ -85,6 +85,11 @@ Technicians work in laboratories, and you are no different, so if you've bought 
 | 29 | Dalton Cole | [@LessTechnology](https://twitter.com/LessTechnology) | [dalton-cole](https://github.com/dalton-cole)  | [Live preview](https://raspberry.farm) | United States |
 | 30 | Beril Kurt| [@berlonics](https://twitter.com/berlonics) | [berlonics](https://github.com/berlonics)  | | Germany |
 | 31 | Cameron Bunce | | [cameronbunce](https://github.com/cameronbunce) | coming soon | United States |
+| 32 | Brayden Lampert | NA | NA | NA | United States |
+| 33 | DaShaun Carter | [@dashaun](https://twitter.com/dashaun) | [dashaun](https://github.com/dashaun)  |  | United States |
+| 34 | Elizabeth Carter | NA | NA | NA | United States |
+| 35 | Logan Carter | NA | NA | NA | United States |
+
 ### Live preview URLs
 
 A live preview URL keeps things interesting and lets the community get a view inside your lab.
